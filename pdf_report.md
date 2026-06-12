@@ -1,0 +1,601 @@
+# PDF fetch report
+
+## Downloads
+
+- `journals-ese-PaivaMPVEPWGSMB25.pdf` ← arXiv: would download
+- `journals-infsof-SantosFSG25.pdf` ← arXiv: would download
+- `journals-scp-AracenaLSSG25.pdf` ← arXiv: would download
+- `journals-software-TrinkenreichGSS25.pdf` ← arXiv: would download
+- `conf-csee-ChoudhuriRCTSGS25.pdf` ← arXiv: would download
+- `conf-csee-SantosFSSG25.pdf` ← arXiv: would download
+- `conf-icse-TrinkenreichFCG25.pdf` ← arXiv: would download
+- `conf-icse-ChoudhuriTPKSGS25.pdf` ← arXiv: would download
+- `conf-icse-chase-SantosFSG25.pdf` ← arXiv: would download
+- `conf-icse-chase-FengSGMSMS25.pdf` ← arXiv: would download
+- `conf-icsm-OliveiraAHGS25.pdf` ← arXiv: would download
+- `conf-nlbse-CarterCVAUFJJPSGS25.pdf` ← arXiv: would download
+- `conf-sigsoft-SantosFTGSG25.pdf` ← arXiv: would download
+- `conf-wsese-CostalongaNBFSK25.pdf` ← arXiv: would download
+- `journals-ase-GerosaTSS24.pdf` ← arXiv: would download
+- `conf-cain-0001SRSSM24.pdf` ← arXiv: would download
+- `conf-icse-ChoudhuriLSGS24.pdf` ← arXiv: would download
+- `conf-vl-SantosFGS24.pdf` ← arXiv: would download
+- `journals-ese-SantosVTSPBPWSSG23.pdf` ← arXiv: would download
+- `journals-software-WesselZGS23.pdf` ← arXiv: would download
+- `conf-conversations-PenneyPSG23.pdf` ← arXiv: would download
+- `conf-icse-SantosPWSSG23.pdf` ← arXiv: would download
+- `conf-icse-TrinkenreichSSGSLFRB23.pdf` ← arXiv: would download
+- `conf-icse-TrinkenreichSSGGS23.pdf` ← arXiv: would download
+- `conf-icse-MatsubaraSGC23.pdf` ← arXiv: would download
+- `conf-icse-GuizaniCSS23.pdf` ← arXiv: would download
+- `conf-iticse-SalernoTST23.pdf` ← arXiv: would download
+- `conf-msr-VargovichSPGS23.pdf` ← arXiv: would download
+- `conf-sbes-TonhaoSHMASCS23.pdf` ← arXiv: would download
+- `journals-ese-CalefatoGILS22.pdf` ← arXiv: would download
+- `journals-ese-WesselSWSG22.pdf` ← arXiv: would download
+- `journals-tosem-TrinkenreichWSG22.pdf` ← arXiv: would download
+- `conf-icse-TrinkenreichBGS22.pdf` ← arXiv: would download
+- `conf-icse-GuizaniSEFBS22.pdf` ← arXiv: would download
+- `conf-icse-MatsubaraSGC22.pdf` ← arXiv: would download
+- `conf-icse-GuizaniTCSGS22.pdf` ← arXiv: would download
+- `conf-icsm-RibeiroNSXGPW22.pdf` ← arXiv: would download
+- `journals-pacmhci-WesselWSG21.pdf` ← arXiv: would download
+- `conf-icse-MatsubaraSGC21.pdf` ← arXiv: would download
+- `conf-icse-GerosaWTLRTSS21.pdf` ← arXiv: would download
+- `journals-jss-SilvaWGTGS20.pdf` ← arXiv: would download
+- `conf-icse-IaffaldanoSCGL19.pdf` ← arXiv: would download
+
+## Orphan files (names don't match any DBLP paper)
+
+
+### Confident matches (review, then run the commands)
+
+None.
+
+### Needs your judgment (ambiguous or weak matches)
+
+- `2011epac.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/2011epac.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/2011epac.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/2011epac.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `2011sbsc-a.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/2011sbsc-a.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/2011sbsc-a.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/2011sbsc-a.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `2011sbsc-b.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/2011sbsc-b.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/2011sbsc-b.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/2011sbsc-b.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `2011sbsc-c.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/2011sbsc-c.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/2011sbsc-c.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/2011sbsc-c.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `2011sbsc-d.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/2011sbsc-d.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/2011sbsc-d.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/2011sbsc-d.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `2012ICGSE.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/2012ICGSE.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/2012ICGSE.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/2012ICGSE.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `2012RSSE.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/2012RSSE.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/2012RSSE.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/2012RSSE.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `2012SBSC-a.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/2012SBSC-a.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/2012SBSC-a.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/2012SBSC-a.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `2012SBSC-b.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/2012SBSC-b.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/2012SBSC-b.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/2012SBSC-b.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `2012SBSC-c.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/2012SBSC-c.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/2012SBSC-c.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/2012SBSC-c.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `2014CHASE.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/2014CHASE.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/2014CHASE.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/2014CHASE.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `2014CRIWG.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/2014CRIWG.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/2014CRIWG.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/2014CRIWG.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `2014SBES.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/2014SBES.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/2014SBES.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/2014SBES.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ASE_Vision2024.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ASE_Vision2024.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ASE_Vision2024.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ASE_Vision2024.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `BOTSE2020_A.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/BOTSE2020_A.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/BOTSE2020_A.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/BOTSE2020_A.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `BOTSE2020_B.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/BOTSE2020_B.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/BOTSE2020_B.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/BOTSE2020_B.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `BotSE2019.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/BotSE2019.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/BotSE2019.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/BotSE2019.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CACIC04-Antecipa.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CACIC04-Antecipa.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CACIC04-Antecipa.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CACIC04-Antecipa.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CACIC04-Aspectos.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CACIC04-Aspectos.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CACIC04-Aspectos.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CACIC04-Aspectos.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CACIC04-PSEE.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CACIC04-PSEE.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CACIC04-PSEE.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CACIC04-PSEE.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CACIC05.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CACIC05.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CACIC05.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CACIC05.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CBCOMP02.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CBCOMP02.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CBCOMP02.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CBCOMP02.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CBCOMP04.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CBCOMP04.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CBCOMP04.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CBCOMP04.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CHASE2013.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CHASE2013.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CHASE2013.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CHASE2013.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CHASE2014.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CHASE2014.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CHASE2014.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CHASE2014.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CHASE2017.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CHASE2017.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CHASE2017.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CHASE2017.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CHASE2018.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CHASE2018.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CHASE2018.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CHASE2018.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CHASE2020.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CHASE2020.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CHASE2020.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CHASE2020.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CHASE2021.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CHASE2021.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CHASE2021.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CHASE2021.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CHASE2026_Governance.pdf` — candidates:
+    - [ ] 50% match: **Governance Matters: Lessons From Restructuring the Data.Table OSS Project** → `git mv 'publications/CHASE2026_Governance.pdf' 'publications/conf-icsm-OliveiraAHGS25.pdf'`
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CHASE2026_Governance.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CHASE2026_Governance.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+- `CHASE_SHORT2020.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CHASE_SHORT2020.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CHASE_SHORT2020.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CHASE_SHORT2020.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CLEI05.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CLEI05.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CLEI05.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CLEI05.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CRIWG2010_Draft.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CRIWG2010_Draft.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CRIWG2010_Draft.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CRIWG2010_Draft.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CSCW2018.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CSCW2018.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CSCW2018.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CSCW2018.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CSCW2020.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CSCW2020.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CSCW2020.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CSCW2020.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CSCW2021_Bots.pdf` — candidates:
+    - [ ] 50% match: **Guidelines for Developing Bots for GitHub** → `git mv 'publications/CSCW2021_Bots.pdf' 'publications/journals-software-WesselZGS23.pdf'`
+    - [ ] 50% match: **Don't Disturb Me: Challenges of Interacting with Software Bots on Open Source Software Projects** → `git mv 'publications/CSCW2021_Bots.pdf' 'publications/journals-pacmhci-WesselWSG21.pdf'`
+    - [ ] 50% match: **The Power of Bots: Characterizing and Understanding Bots in OSS Projects** → `git mv 'publications/CSCW2021_Bots.pdf' 'publications/journals-pacmhci-WesselSSWPCG18.pdf'`
+- `CSCW2021_OSSOrg.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CSCW2021_OSSOrg.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CSCW2021_OSSOrg.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CSCW2021_OSSOrg.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CSCW_2015.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CSCW_2015.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CSCW_2015.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CSCW_2015.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CSEET2017_a.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CSEET2017_a.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CSEET2017_a.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CSEET2017_a.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `CSEET2017_b.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/CSEET2017_b.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/CSEET2017_b.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/CSEET2017_b.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `Computer2022.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/Computer2022.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/Computer2022.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/Computer2022.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `EEAST_2014.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/EEAST_2014.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/EEAST_2014.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/EEAST_2014.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `EMSE2020.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/EMSE2020.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/EMSE2020.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/EMSE2020.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `EMSE2021_Breaks.pdf` — candidates:
+    - [ ] 50% match: **Why do developers take breaks from contributing to OSS projects?: a preliminary analysis** → `git mv 'publications/EMSE2021_Breaks.pdf' 'publications/conf-icse-IaffaldanoSCGL19.pdf'`
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/EMSE2021_Breaks.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/EMSE2021_Breaks.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+- `EMSE2023.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/EMSE2023.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/EMSE2023.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/EMSE2023.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `EMSE_2018.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/EMSE_2018.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/EMSE_2018.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/EMSE_2018.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ENINED09.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ENINED09.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ENINED09.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ENINED09.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ESEM2019_Ind.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ESEM2019_Ind.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ESEM2019_Ind.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ESEM2019_Ind.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `FITEM03-Aspectos.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/FITEM03-Aspectos.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/FITEM03-Aspectos.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/FITEM03-Aspectos.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `FITEM03-EVERSUMM.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/FITEM03-EVERSUMM.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/FITEM03-EVERSUMM.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/FITEM03-EVERSUMM.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `FSE2020.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/FSE2020.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/FSE2020.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/FSE2020.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `FSE_VaR2016.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/FSE_VaR2016.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/FSE_VaR2016.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/FSE_VaR2016.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `GSD_CSCW2014.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/GSD_CSCW2014.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/GSD_CSCW2014.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/GSD_CSCW2014.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICGSE2019.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICGSE2019.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICGSE2019.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ICGSE2019.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICSE2021_A.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICSE2021_A.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICSE2021_A.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ICSE2021_A.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICSE2021_B.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICSE2021_B.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICSE2021_B.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ICSE2021_B.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICSE_2016.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICSE_2016.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICSE_2016.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ICSE_2016.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICSE_2018a.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICSE_2018a.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICSE_2018a.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ICSE_2018a.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICSE_2018b.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICSE_2018b.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICSE_2018b.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ICSE_2018b.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICSE_2022.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICSE_2022.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICSE_2022.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ICSE_2022.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICSE_2024a.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICSE_2024a.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICSE_2024a.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ICSE_2024a.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICSE_NIER2022.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICSE_NIER2022.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICSE_NIER2022.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ICSE_NIER2022.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICSE_SEET2019.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICSE_SEET2019.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICSE_SEET2019.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ICSE_SEET2019.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICSE_SEET2020.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICSE_SEET2020.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICSE_SEET2020.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ICSE_SEET2020.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICSME2017.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICSME2017.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICSME2017.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ICSME2017.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICSME2020_a.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICSME2020_a.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICSME2020_a.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ICSME2020_a.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICSME2020_b.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICSME2020_b.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICSME2020_b.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ICSME2020_b.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICSME_2016.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICSME_2016.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICSME_2016.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/ICSME_2016.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `ICSME_ERA_2016.pdf` — candidates:
+    - [ ] 33% match: **Understanding Programming Students' Help-Seeking Preferences in the Era of Generative AI** → `git mv 'publications/ICSME_ERA_2016.pdf' 'publications/conf-comped-PenneyAHPSSG25.pdf'`
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/ICSME_ERA_2016.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/ICSME_ERA_2016.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+- `IEEESoft_2018.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/IEEESoft_2018.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/IEEESoft_2018.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/IEEESoft_2018.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `IEEE_SW2022.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/IEEE_SW2022.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/IEEE_SW2022.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/IEEE_SW2022.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `IEEE_SW2023.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/IEEE_SW2023.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/IEEE_SW2023.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/IEEE_SW2023.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `IST_SysReview_PrePrint.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/IST_SysReview_PrePrint.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/IST_SysReview_PrePrint.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/IST_SysReview_PrePrint.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `IWPSE2013.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/IWPSE2013.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/IWPSE2013.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/IWPSE2013.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `JBCS2018A.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/JBCS2018A.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/JBCS2018A.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/JBCS2018A.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `JBCS2018B.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/JBCS2018B.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/JBCS2018B.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/JBCS2018B.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `JCSCW_2018.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/JCSCW_2018.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/JCSCW_2018.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/JCSCW_2018.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `JCSCW_ECSCW_2018.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/JCSCW_ECSCW_2018.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/JCSCW_ECSCW_2018.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/JCSCW_ECSCW_2018.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `JISA2021_Mentor.pdf` — candidates:
+    - [ ] 50% match: **Being a Mentor in open source projects** → `git mv 'publications/JISA2021_Mentor.pdf' 'publications/journals-jisa-SteinmacherBTGI21.pdf'`
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/JISA2021_Mentor.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/JISA2021_Mentor.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+- `JSS2017.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/JSS2017.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/JSS2017.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/JSS2017.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `JSS2020.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/JSS2020.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/JSS2020.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/JSS2020.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `JSS2022.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/JSS2022.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/JSS2022.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/JSS2022.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `MSR2021.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/MSR2021.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/MSR2021.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/MSR2021.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `Mestrado.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/Mestrado.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/Mestrado.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/Mestrado.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `OSS2014.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/OSS2014.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/OSS2014.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/OSS2014.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `OSS2014_Doctoral.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/OSS2014_Doctoral.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/OSS2014_Doctoral.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/OSS2014_Doctoral.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `OSS2018.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/OSS2018.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/OSS2018.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/OSS2018.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `OSS2019.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/OSS2019.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/OSS2019.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/OSS2019.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `Opensym2020.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/Opensym2020.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/Opensym2020.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/Opensym2020.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `RESI2014.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/RESI2014.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/RESI2014.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/RESI2014.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SANER_RENE2020.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SANER_RENE2020.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SANER_RENE2020.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SANER_RENE2020.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBES2015_1.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBES2015_1.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBES2015_1.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBES2015_1.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBES2015_2.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBES2015_2.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBES2015_2.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBES2015_2.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBES2016.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBES2016.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBES2016.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBES2016.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBES2017.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBES2017.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBES2017.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBES2017.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBES2018_Clarice.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBES2018_Clarice.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBES2018_Clarice.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBES2018_Clarice.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBES2018_Vaz.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBES2018_Vaz.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBES2018_Vaz.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBES2018_Vaz.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBES2018_Will.pdf` — candidates:
+    - [ ] 50% match: **Will you come back to contribute? Investigating the inactivity of OSS core developers in GitHub** → `git mv 'publications/SBES2018_Will.pdf' 'publications/journals-ese-CalefatoGILS22.pdf'`
+    - [ ] 50% match: **Tell Me Who Are You Talking to and I Will Tell You What Issues Need Your Skills** → `git mv 'publications/SBES2018_Will.pdf' 'publications/conf-msr-SantosPPWSG23.pdf'`
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBES2018_Will.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+- `SBES2019_Edu.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBES2019_Edu.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBES2019_Edu.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBES2019_Edu.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBES2019_Short.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBES2019_Short.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBES2019_Short.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBES2019_Short.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBES2020_IIER.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBES2020_IIER.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBES2020_IIER.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBES2020_IIER.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBES2020a.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBES2020a.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBES2020a.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBES2020a.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBES_Ed2021.pdf` — candidates:
+    - [ ] 50% match: **How Open is the SBES PC Community?** → `git mv 'publications/SBES_Ed2021.pdf' 'publications/conf-sbes-PachecoWSC019.pdf'`
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBES_Ed2021.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBES_Ed2021.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+- `SBSC2013.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBSC2013.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBSC2013.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBSC2013.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBSC2015_1.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBSC2015_1.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBSC2015_1.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBSC2015_1.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBSC2015_2.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBSC2015_2.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBSC2015_2.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBSC2015_2.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBSC2017.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBSC2017.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBSC2017.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBSC2017.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBSC_2016a.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBSC_2016a.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBSC_2016a.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBSC_2016a.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBSC_2016b.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBSC_2016b.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBSC_2016b.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBSC_2016b.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBSI06.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBSI06.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBSI06.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBSI06.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SBSI2012.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SBSI2012.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SBSI2012.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SBSI2012.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SEKE06.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SEKE06.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SEKE06.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SEKE06.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SEKE10.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SEKE10.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SEKE10.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SEKE10.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `SoHeal2019.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/SoHeal2019.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/SoHeal2019.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/SoHeal2019.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `TG.pdf` — candidates:
+    - (none — filename shares no words with any paper title)
+- `TI.pdf` — candidates:
+    - (none — filename shares no words with any paper title)
+- `TOSEM2022.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/TOSEM2022.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/TOSEM2022.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/TOSEM2022.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `TSE2020.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/TSE2020.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/TSE2020.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/TSE2020.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `TSE2021_Success.pdf` — candidates:
+    - [ ] 50% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/TSE2021_Success.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/TSE2021_Success.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/TSE2021_Success.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `VEM_2017a.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/VEM_2017a.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/VEM_2017a.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/VEM_2017a.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `VEM_2017b.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/VEM_2017b.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/VEM_2017b.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/VEM_2017b.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `VLHCC2020.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/VLHCC2020.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/VLHCC2020.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/VLHCC2020.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `WDDS10.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/WDDS10.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/WDDS10.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/WDDS10.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `WDES_2015.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/WDES_2015.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/WDES_2015.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/WDES_2015.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `WEI2017.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/WEI2017.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/WEI2017.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/WEI2017.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `WMSWM2013.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/WMSWM2013.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/WMSWM2013.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/WMSWM2013.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `WSL05.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/WSL05.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/WSL05.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/WSL05.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `WSL2011.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/WSL2011.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/WSL2011.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/WSL2011.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `WSL2013.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/WSL2013.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/WSL2013.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/WSL2013.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `WebMedia04-MSc.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/WebMedia04-MSc.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/WebMedia04-MSc.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/WebMedia04-MSc.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `WebMedia04-Tools.pdf` — candidates:
+    - [ ] 50% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/WebMedia04-Tools.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 50% match: **"Looks Good To Me ;-)": Assessing Sentiment Analysis Tools for Pull Request Discussions** → `git mv 'publications/WebMedia04-Tools.pdf' 'publications/conf-ease-CoutinhoCLAPAGM24.pdf'`
+    - [ ] 50% match: **Understanding the Student Experience Better: Analyzing Remote Learning Tools Through Engagement, Participation, and Liveness Concepts** → `git mv 'publications/WebMedia04-Tools.pdf' 'publications/conf-csedu-GomesSM0LSCG25.pdf'`
+- `saner2016.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/saner2016.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/saner2016.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/saner2016.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `sigproc-sp.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/sigproc-sp.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/sigproc-sp.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/sigproc-sp.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `sqj2019.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/sqj2019.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/sqj2019.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/sqj2019.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+- `vem2016.pdf` — candidates:
+    - [ ] 0% match: **Pots of Gold at the End of the Rainbow: What is Success for Open Source Contributors?** → `git mv 'publications/vem2016.pdf' 'publications/journals-tse-TrinkenreichGWC22.pdf'`
+    - [ ] 0% match: **How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects** → `git mv 'publications/vem2016.pdf' 'publications/journals-tse-PadalaMFSSHHHSB22.pdf'`
+    - [ ] 0% match: **Women's Participation in Open Source Software: A Survey of the Literature** → `git mv 'publications/vem2016.pdf' 'publications/journals-tosem-TrinkenreichWSG22.pdf'`
+
+## Summary
+
+- already in place: 0
+- downloaded (dry run): 42
+- no source found (not on arXiv): 151
+- orphan files: 135
+
+Next: review the rename suggestions above, run them, then `python scripts/build_pubs.py` to regenerate the page.

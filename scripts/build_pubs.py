@@ -239,7 +239,11 @@ def main() -> None:
             pdf = arxiv_api_lookup(title)
 
         local_pdf = PUB_DIR / f"{key_slug(key)}.pdf"
-        if oa and oa.get("is_oa"):
+        if local_pdf.exists():
+            n_linked += 1
+            badge = (f'<a class="preprint" href="publications/{esc(local_pdf.name)}" '
+                     f'target="_blank" rel="noopener">[PDF]</a>')
+        elif oa and oa.get("is_oa"):
             n_linked += 1
             link = oa.get("oa_url") or f"https://doi.org/{doi}"
             badge = (f'<a class="preprint" href="{esc(link)}" target="_blank" '
@@ -248,10 +252,6 @@ def main() -> None:
             n_linked += 1
             badge = (f'<a class="preprint" href="{esc(pdf)}" target="_blank" '
                      f'rel="noopener">[preprint PDF]</a>')
-        elif local_pdf.exists():
-            n_linked += 1
-            badge = (f'<a class="preprint" href="publications/{esc(local_pdf.name)}" '
-                     f'target="_blank" rel="noopener">[PDF]</a>')
         else:
             badge = ""
             missing[year].append((title, venue, authors, key_slug(key)))
