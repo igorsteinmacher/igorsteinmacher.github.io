@@ -3,7 +3,7 @@
 build_pubs.py — regenerate publications.html from DBLP.
 
 Usage:
-    python build_pubs.py
+    python scripts/build_pubs.py
 
 Fetches https://dblp.org/pid/70/3474.xml (Igor Steinmacher's DBLP record),
 groups journal and conference papers by year, and writes publications.html.
@@ -48,6 +48,7 @@ HEAD = """<!DOCTYPE html>
     <nav>
       <a href="index.html#research">Research</a>
       <a href="publications.html">Publications</a>
+      <a href="software.html">Software</a>
       <a href="index.html#students">Students</a>
       <a href="index.html#service">Service</a>
       <a href="index.html#contact">Contact</a>
@@ -58,8 +59,8 @@ HEAD = """<!DOCTYPE html>
 <section>
 <h2>Publications</h2>
 <p class="lead">Peer-reviewed journal and conference papers, generated automatically
-from <a href="https://dblp.org/pid/70/3474.html">DBLP</a>. Preprints live on
-<a href="https://arxiv.org/a/steinmacher_i_1">arXiv</a>.</p>
+from <a href="https://dblp.org/pid/70/3474.html" target="_blank" rel="noopener">DBLP</a>. Preprints live on
+<a href="https://arxiv.org/a/steinmacher_i_1" target="_blank" rel="noopener">arXiv</a>.</p>
 """
 
 FOOT = """</section>
@@ -67,7 +68,7 @@ FOOT = """</section>
 <footer>
   <div class="row">
     <span>© Igor Steinmacher · list auto-generated from DBLP</span>
-    <a href="https://github.com/igorsteinmacher/igorsteinmacher.github.io">source</a>
+    <a href="https://github.com/igorsteinmacher/igorsteinmacher.github.io" target="_blank" rel="noopener">source</a>
   </div>
 </footer>
 </body>
@@ -112,7 +113,7 @@ def main() -> None:
         label = "journal" if kind == "article" else "conference"
         award = AWARDS.get(key)
 
-        title_html = f'<a href="{esc(ee)}">{esc(title)}</a>' if ee else esc(title)
+        title_html = f'<a href="{esc(ee)}" target="_blank" rel="noopener">{esc(title)}</a>' if ee else esc(title)
         award_html = f'<span class="award">★ {esc(award)}</span>' if award else ""
         by_year[year].append(
             f'<div class="pub">\n'
