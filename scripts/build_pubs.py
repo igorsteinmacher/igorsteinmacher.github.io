@@ -36,6 +36,7 @@ from pathlib import Path
 DBLP_PID = "70/3474"
 DBLP_URL = f"https://dblp.org/pid/{DBLP_PID}.xml"
 ROOT = Path(__file__).resolve().parent.parent
+DBLP_CACHE = ROOT / "dblp_cache.xml"
 OUT_HTML = ROOT / "publications.html"
 OUT_MD = ROOT / "missing_preprints.md"
 OA_CACHE = ROOT / "oa_cache.json"
@@ -133,10 +134,56 @@ def unpaywall_lookup(doi: str) -> dict:
 
 
 def fetch(url: str) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": "pubs-builder/2.0"})
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/153.0 Safari/537.36"
+            ),
+            "Accept": "application/xml,text/xml,application/json;q=0.9,*/*;q=0.8",
+        },
+    )
+
     with urllib.request.urlopen(req, timeout=60) as r:
         return r.read()
 
+def fetch_dblp() -> bytes:
+    """Fetch DBLP XML, falling back to the last successful copy."""
+
+    try:
+        print(f"Fetching DBLP: {DBLP_URL}")
+        data = fetch(DBLP_URL)
+
+        # Detect DBLP/Anubis anti-bot page
+        if (
+            b"anubis_challenge" in data
+            or b"Making sure you&#39;re not a bot!" in data
+            or data.lstrip().lower().startswith(b"<!doctype html")
+        ):
+            raise RuntimeError("DBLP returned its anti-bot HTML page instead of XML")
+
+        # Make sure we really got valid XML before caching it
+        ET.fromstring(data)
+
+        DBLP_CACHE.write_bytes(data)
+        print(f"Updated DBLP cache: {DBLP_CACHE}")
+        return data
+
+    except Exception as e:
+        print(f"WARNING: Could not fetch DBLP: {e}")
+
+        if DBLP_CACHE.exists():
+            print(f"Using cached DBLP data: {DBLP_CACHE}")
+            return DBLP_CACHE.read_bytes()
+
+        raise RuntimeError(
+            "Could not fetch DBLP and no local DBLP cache exists.\n"
+            f"Open {DBLP_URL} in a browser, save the XML as:\n"
+            f"  {DBLP_CACHE}\n"
+            "and run this script again."
+        ) from e
 
 def norm_title(t: str) -> str:
     """Normalize a title for fuzzy matching: lowercase, alphanumerics only."""
@@ -182,7 +229,8 @@ def main() -> None:
             oa_cache = json.loads(OA_CACHE.read_text())
         except Exception:
             oa_cache = {}
-    root = ET.fromstring(fetch(DBLP_URL))
+            
+        root = ET.fromstring(fetch_dblp())
 
     # Pass 1: harvest arXiv preprints from DBLP's informal CoRR entries
     preprints: dict[str, str] = {}  # normalized title -> arXiv PDF URL
