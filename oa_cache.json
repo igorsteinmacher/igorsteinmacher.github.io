@@ -23,6 +23,10 @@
 "is_oa": false,
 "oa_url": null
 },
+"10.1007/978-3-032-36587-3_16": {
+"is_oa": true,
+"oa_url": "https://arxiv.org/pdf/2606.17588"
+},
 "10.1007/978-3-319-10166-8_31": {
 "is_oa": false,
 "oa_url": null
@@ -663,9 +667,41 @@
 "is_oa": false,
 "oa_url": null
 },
+"10.1145/3769012": {
+"is_oa": true,
+"oa_url": "https://doi.org/10.1145/3769012"
+},
 "10.1145/3770761.3777131": {
 "is_oa": true,
 "oa_url": "https://doi.org/10.1145/3770761.3777131"
+},
+"10.1145/3786151.3788604": {
+"is_oa": true,
+"oa_url": "https://doi.org/10.1145/3786151.3788604"
+},
+"10.1145/3786171.3788379": {
+"is_oa": true,
+"oa_url": "https://doi.org/10.1145/3786171.3788379"
+},
+"10.1145/3786580.3786971": {
+"is_oa": true,
+"oa_url": "https://doi.org/10.1145/3786580.3786971"
+},
+"10.1145/3789210": {
+"is_oa": true,
+"oa_url": "https://research.tue.nl/en/publications/678f6e71-c3c2-4df0-b95b-1e119784fa9e"
+},
+"10.1145/3794860.3794911": {
+"is_oa": true,
+"oa_url": "https://doi.org/10.1145/3794860.3794911"
+},
+"10.1145/3803437.3806710": {
+"is_oa": true,
+"oa_url": "https://doi.org/10.1145/3803437.3806710"
+},
+"10.1145/3803437.3806711": {
+"is_oa": true,
+"oa_url": "https://doi.org/10.1145/3803437.3806711"
 },
 "10.1186/s13173-018-0079-x": {
 "is_oa": true,
@@ -696,6 +732,10 @@
 "is_oa": true,
 "oa_url": "https://www.clei.org/cleiej/index.php/cleiej/article/download/173/214"
 },
+"10.32614/rj-2026-013": {
+"is_oa": true,
+"oa_url": "https://journal.r-project.org/articles/RJ-2026-013/RJ-2026-013.pdf"
+},
 "10.5220/0005350102680276": {
 "is_oa": true,
 "oa_url": "https://doi.org/10.5220/0005350102680276"
@@ -711,6 +751,10 @@
 "10.5753/isys.2021.2353": {
 "is_oa": true,
 "oa_url": "https://sol.sbc.org.br/journals/index.php/isys/article/download/2353/1874"
+},
+"10.5753/jbcs.2026.6576": {
+"is_oa": true,
+"oa_url": "https://journals-sol.sbc.org.br/index.php/jbcs/article/download/6576/4139"
 },
 "10.5753/jserd.2024.4027": {
 "is_oa": true,
