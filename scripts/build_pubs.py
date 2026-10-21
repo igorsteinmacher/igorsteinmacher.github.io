@@ -21,17 +21,21 @@ How preprint matching works: DBLP lists your arXiv submissions as separate
 journal/conference versions. --deep additionally searches the arXiv API by
 title for anything still unmatched (rate-limited per arXiv's ToS).
 
-No dependencies beyond the Python standard library.
+No dependencies beyond the Python standard library (3.11+).
+Paper awards live in data/awards.toml.
 """
 
 import re
 import sys
 import time
+import tomllib
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 from pathlib import Path
+
+from build_site import fill_regions  # shared nav from data/site.toml
 
 DBLP_PID = "70/3474"
 DBLP_URL = f"https://dblp.org/pid/{DBLP_PID}.xml"
@@ -43,13 +47,7 @@ OA_CACHE = ROOT / "oa_cache.json"
 PUB_DIR = ROOT / "publications"  # drop self-hosted PDFs here, named <dblp-key-with-dashes>.pdf
 UNPAYWALL_EMAIL = "igor.steinmacher@nau.edu"  # required by the Unpaywall API
 
-AWARDS = {
-    "conf/icse/TrinkenreichSSG23": "ACM SIGSOFT Distinguished Paper",
-    "conf/icse/DiasMCSWP21": "ACM SIGSOFT Distinguished Paper",
-    "conf/esem/FelizardoLDCS24": "Best Paper Award",
-    "conf/icsm/WesselSWSG20": "IEEE TCSE Distinguished Paper",
-    "conf/icse/TrinkenreichBGS22": "Best Paper Award (SEIS)",
-}
+AWARDS_FILE = ROOT / "data" / "awards.toml"  # DBLP key -> award text
 
 HEAD = """<!DOCTYPE html>
 <html lang="en">
@@ -67,6 +65,7 @@ HEAD = """<!DOCTYPE html>
   <div class="row">
     <a class="brand" href="index.html">Igor Steinmacher</a>
     <nav>
+      <!-- BEGIN:nav (generated from data/site.toml — edit there) -->
       <a href="index.html#research">Research</a>
       <a href="index.html#projects">Projects</a>
       <a href="publications.html">Publications</a>
@@ -74,6 +73,7 @@ HEAD = """<!DOCTYPE html>
       <a href="index.html#students">Students</a>
       <a href="index.html#service">Service</a>
       <a href="index.html#contact">Contact</a>
+      <!-- END:nav -->
     </nav>
   </div>
 </header>
@@ -221,6 +221,7 @@ def arxiv_api_lookup(title: str) -> str | None:
 
 def main() -> None:
     import json
+    awards = tomllib.loads(AWARDS_FILE.read_text(encoding="utf-8"))
     deep = "--deep" in sys.argv
     use_oa = "--no-oa" not in sys.argv
     oa_cache: dict = {}
@@ -229,8 +230,8 @@ def main() -> None:
             oa_cache = json.loads(OA_CACHE.read_text())
         except Exception:
             oa_cache = {}
-            
-        root = ET.fromstring(fetch_dblp())
+
+    root = ET.fromstring(fetch_dblp())
 
     # Pass 1: harvest arXiv preprints from DBLP's informal CoRR entries
     preprints: dict[str, str] = {}  # normalized title -> arXiv PDF URL
@@ -305,7 +306,7 @@ def main() -> None:
             missing[year].append((title, venue, authors, key_slug(key)))
 
         label = "journal" if kind == "article" else "conference"
-        award = AWARDS.get(key)
+        award = awards.get(key)
         title_html = (f'<a href="{esc(ee)}" target="_blank" rel="noopener">{esc(title)}</a>'
                       if ee else esc(title))
         award_html = f'<span class="award">★ {esc(award)}</span>' if award else ""
@@ -320,13 +321,17 @@ def main() -> None:
             f"</div>"
         )
 
+    seen_keys = {r[0].get("key") for r in root.iter("r")}
+    for key in awards.keys() - seen_keys:
+        print(f"WARNING: data/awards.toml key {key!r} not found in DBLP (renamed?)")
+
     # Write HTML
     parts = [HEAD]
     for year in sorted(by_year, reverse=True):
         parts.append(f'<h3 class="year-h">{year}</h3>')
         parts.extend(by_year[year])
     parts.append(FOOT)
-    OUT_HTML.write_text("\n".join(parts), encoding="utf-8")
+    OUT_HTML.write_text(fill_regions("\n".join(parts), OUT_HTML.name), encoding="utf-8")
 
     # Write missing-preprints checklist
     n_missing = sum(len(v) for v in missing.values())

@@ -1,0 +1,32 @@
+# Service & Leadership on the home page (index.html#service).
+# Edit this file, then run:  python3 scripts/build_site.py
+#
+# Each [[group]] becomes a sub-heading with a bullet list. Plain text only
+# (write "&", not "&amp;"). Order in this file = order on the page.
+
+[[group]]
+title = "Conference organization"
+items = [
+  "General Chair — Mining Software Repositories (MSR 2026); ICSME 2024; CHASE 2023",
+  "General Co-Chair — International Conference on Program Comprehension (ICPC 2024)",
+  "Area Chair, Human Aspects — ICSE 2025",
+  "Program Co-Chair — SBES 2024; OSS 2022; ICSSP 2022; ICGSE 2020",
+  "Earlier roles — Publicity Chair ICGSE 2017; Proceedings Chair ICGSE 2016, SBCARS 2016",
+]
+
+[[group]]
+title = "Editorial & reviewing"
+items = [
+  "Editorial Boards — Empirical Software Engineering (since 2022); Journal of Software: Evolution and Process (since 2021)",
+  "Program committees — ICSE, ICSE-NIER, MSR, CSCW, EASE, ICSME, OSS, ICGSE",
+  "Reviewer — TSE, TOSEM, EMSE, IST, JSS, ACM Computing Surveys; Distinguished Reviewer Award, ICSE 2023",
+]
+
+[[group]]
+title = "Institutional & community"
+items = [
+  "Associate Director for Graduate Programs and Academic Affairs — SICCS, NAU",
+  "Chaired the proposal committee for NAU's BS in Artificial Intelligence (starts Fall 2026)",
+  "Education Committee, Brazilian Computer Society (2015–2017)",
+  "Recent keynotes — FOSSY 2025 (Portland); GiraEuropa 2026 (Italy & Switzerland)",
+]

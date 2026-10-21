@@ -4,9 +4,16 @@ on:
   schedule:
     - cron: "0 6 1 * *"   # 06:00 UTC on the 1st of every month
   workflow_dispatch: {}    # allows manual run from the Actions tab
+  push:                    # rebuild when awards are edited
+    branches: [master]
+    paths: ["data/awards.toml"]
 
 permissions:
   contents: write
+
+concurrency:
+  group: site-build
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -28,6 +35,7 @@ jobs:
           if ! git diff --quiet publications.html missing_preprints.md oa_cache.json; then
             git add publications.html missing_preprints.md oa_cache.json
             git commit -m "chore: update publications from DBLP"
+            git pull --rebase
             git push
           else
             echo "No changes."

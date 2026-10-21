@@ -1,0 +1,92 @@
+# Students shown on the home page (index.html#students).
+# Edit this file, then run:  python3 scripts/build_site.py
+# (or just push — the GitHub Action rebuilds the pages for you).
+#
+# Fields:
+#   name    (required)
+#   school  (required)  e.g. "NAU", "USP"
+#   start   (current students)  first year, e.g. 2024
+#   year    (alumni)            graduation year
+#   topic   (optional)  short research topic
+#   now     (optional, alumni)  current position — rendered as "now <...>"
+#   note    (optional)  any extra text, e.g. "on the job market"
+#   url     (optional)  link for the name (personal page, LinkedIn, ...)
+#
+# Order in this file = order on the page.
+
+# ---------------------------------------------------------------- current PhD
+
+[[current]]
+name = "Pedro A. Oliveira"
+school = "NAU"
+start = 2024
+topic = "open source governance as a foundation for project sustainability"
+
+[[current]]
+name = "Jacob McAuley Penney"
+school = "NAU"
+start = 2023
+topic = "LLMs to support computational thinking and developer learning"
+
+[[current]]
+name = "Morgan Nicholson"
+school = "NAU"
+start = 2025
+topic = "conversational agents in developer support"
+
+# ----------------------------------------------------------------- PhD alumni
+
+[[alumni]]
+name = "Ana Claudia Maciel"
+school = "UEM"
+year = 2026
+topic = "communication channels in open source"
+note = "on the job market"
+
+[[alumni]]
+name = "Italo Santos"
+school = "NAU"
+year = 2024
+now = "Assistant Professor, University of Hawaii"
+
+[[alumni]]
+name = "Simone de França Tonhão"
+school = "UEM"
+year = 2023
+now = "Assistant Professor, UFMS"
+
+[[alumni]]
+name = "Fabio Santos"
+school = "NAU"
+year = 2023
+now = "Research Associate, Colorado State University"
+
+[[alumni]]
+name = "Bianca Trinkenreich"
+school = "NAU"
+year = 2022
+now = "Assistant Professor, Colorado State University"
+
+[[alumni]]
+name = "Patricia Matsubara"
+school = "UFAM"
+year = 2022
+now = "Associate Professor, UFMS"
+
+[[alumni]]
+name = "Mairieli Wessel"
+school = "USP"
+year = 2021
+now = "Assistant Professor, Radboud University"
+
+[[alumni]]
+name = "Williamson Silva"
+school = "UFAM"
+year = 2020
+now = "Assistant Professor, UFCA"
+
+[[alumni]]
+name = "Jefferson Silva"
+school = "USP"
+year = 2019
+now = "Lecturer at Inteli / Associate Director, PUC-SP"

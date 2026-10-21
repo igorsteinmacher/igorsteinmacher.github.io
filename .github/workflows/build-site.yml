@@ -1,0 +1,46 @@
+name: Build pages from data/
+
+# Edit a file in data/ (even from the GitHub web editor) and push —
+# this regenerates the HTML and commits it. Awards are handled by
+# update-pubs.yml, since they need the publications rebuild.
+on:
+  push:
+    branches: [master]
+    paths:
+      - "data/**"
+      - "!data/awards.toml"
+      - "scripts/build_site.py"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Fill generated regions
+        run: python scripts/build_site.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "site-bot"
+          git config user.email "actions@github.com"
+          if ! git diff --quiet -- '*.html'; then
+            git add -- '*.html'
+            git commit -m "chore: rebuild pages from data/"
+            git pull --rebase
+            git push
+          else
+            echo "No changes."
+          fi

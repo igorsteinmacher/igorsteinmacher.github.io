@@ -1,0 +1,9 @@
+# Paper awards shown as a ★ badge on publications.html.
+# Key = the paper's DBLP key (find it on dblp.org: hover the paper → "export record"),
+# value = award text. Used by scripts/build_pubs.py.
+
+"conf/icse/TrinkenreichSSGGS23" = "ACM SIGSOFT Distinguished Paper"
+"conf/icse/DiasMCSW021" = "ACM SIGSOFT Distinguished Paper"
+"conf/esem/FelizardoLDCS24" = "Best Paper Award"
+"conf/icsm/WesselSWSG20" = "IEEE TCSE Distinguished Paper"
+"conf/icse/TrinkenreichBGS22" = "Best Paper Award (SEIS)"

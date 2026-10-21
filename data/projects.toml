@@ -1,0 +1,37 @@
+# Funded projects on the home page (index.html#projects).
+# Edit this file, then run:  python3 scripts/build_site.py
+#
+# Fields:
+#   title    (required)  shown in bold
+#   url      (optional)  makes the title a link (e.g. the NSF award page)
+#   details  (optional)  plain text shown after the title
+#
+# Order in this file = order on the page.
+
+[[project]]
+title = "CommUnityBuddy"
+details = "— a conversational agent supporting open source contributors — Alfred P. Sloan Foundation, 2026–current (lead PI, USD 100K)."
+
+[[project]]
+title = "NSF POSE: expanding the data.table ecosystem"
+url = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2303612"
+details = "for efficient big data manipulation in R — 2023–2026, lead PI, USD 731K, with Marco Gerosa and Toby Hocking."
+
+[[project]]
+title = "NSF HSI: a learning environment for an open-source contribution model"
+url = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2247929"
+details = "(OSS-Doorway) — 2023–current, lead PI, USD 498K, with Marco Gerosa."
+
+[[project]]
+title = "NSF IUSE: scaffolding computational thinking in introductory CS through a conversational agent"
+url = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2236198"
+details = "— 2023–current, lead PI, USD 405K, with Marco Gerosa."
+
+[[project]]
+title = "NSF CHS: Gender-Inclusive Open Source through Gender-Inclusive Tools"
+url = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1900903"
+details = "— 2019–2023, lead PI, USD 528K."
+
+[[project]]
+title = "DisTrac"
+details = "— forecasting core-developer inactivity in OSS projects, with the University of Bari."

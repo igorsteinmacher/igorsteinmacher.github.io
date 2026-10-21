@@ -1,0 +1,14 @@
+# Site-wide settings shared by every page.
+# Edit this file, then run:  python3 scripts/build_site.py
+
+# Top navigation bar, in order. Use "index.html#section" for home-page
+# sections — on the home page itself the "index.html" part is dropped.
+nav = [
+  { label = "Research", href = "index.html#research" },
+  { label = "Projects", href = "index.html#projects" },
+  { label = "Publications", href = "publications.html" },
+  { label = "Software", href = "software.html" },
+  { label = "Students", href = "index.html#students" },
+  { label = "Service", href = "index.html#service" },
+  { label = "Contact", href = "index.html#contact" },
+]

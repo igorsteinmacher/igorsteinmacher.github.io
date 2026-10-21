@@ -1,0 +1,73 @@
+# Tools listed on software.html.
+# Edit this file, then run:  python3 scripts/build_site.py
+#
+# Fields:
+#   name         (required)
+#   description  (optional)  plain text; blank lines are not needed
+#   links        (optional)  list of { label = "...", url = "..." }
+#
+# Order in this file = order on the page.
+
+[[tool]]
+name = "OSS-Doorway"
+description = """
+A gamified GitHub environment that scaffolds students through the open source
+contribution process — quests, XP, levels, and a bot that gives real-time feedback
+as students submit pull requests, write documentation, and solve issues. Evaluated
+in multiple classrooms; boosts self-efficacy and GitHub familiarity. Part of the
+NSF HSI project."""
+links = [
+  { label = "github", url = "https://github.com/caiton1/OSS-Doorway" },
+  { label = "paper (CSEE&T 2025)", url = "https://arxiv.org/abs/2502.07986" },
+  { label = "in the news", url = "https://news.nau.edu/oss-doorway" },
+]
+
+[[tool]]
+name = "FLOSScoach"
+description = """
+A portal that helps newcomers overcome the most common barriers to joining
+open source communities, organizing project information in a standardized way
+grounded in our barriers research (IST 2015, ICSE 2016). The original tool from
+my PhD work — still the reference point for newcomer-support portals."""
+links = [
+  { label = "flosscoach.com", url = "http://www.flosscoach.com" },
+  { label = "github", url = "https://github.com/RESHAPELab/flosscoach" },
+]
+
+[[tool]]
+name = "DisTrac"
+description = """
+Forecasts core-developer inactivity in open source projects from contribution
+rhythms, building on our EMSE 2022 inactivity study. Developed with Fabio Calefato
+and colleagues at the University of Bari. Tool paper in submission (ICSME 2026
+Data and Tools track)."""
+links = [
+  { label = "github (RESHAPELab)", url = "https://github.com/RESHAPELab" },
+]
+
+[[tool]]
+name = "SIGIL"
+description = ""  # TODO: add a description
+links = [
+  { label = "github (RESHAPELab)", url = "https://github.com/RESHAPELab" },
+]
+
+[[tool]]
+name = "GiveMeLabeledIssues"
+description = """
+An open source issue-recommendation system that matches contributors to issues
+needing their skills, based on API-domain labeling (MSR 2023)."""
+links = [
+  { label = "github (RESHAPELab)", url = "https://github.com/RESHAPELab" },
+  { label = "paper (MSR 2023)", url = "https://doi.org/10.1109/MSR59073.2023.00061" },
+]
+
+[[tool]]
+name = "CommUnityBuddy"
+description = """
+A conversational agent that mentors newcomer developers in open source
+communities, funded by the Alfred P. Sloan Foundation. In active development
+with OSS community partners."""
+links = [
+  { label = "github (RESHAPELab)", url = "https://github.com/RESHAPELab" },
+]
