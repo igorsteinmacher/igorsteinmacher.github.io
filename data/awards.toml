@@ -5,6 +5,7 @@
 # Used by scripts/build_pubs.py (★ badges), build_site.py (Awards & honors) and
 # build_cv.py.
 
+"conf/icse-chase/OliveiraCGS26" = "ACM SIGSOFT Distinguished Paper"
 "conf/icse/TrinkenreichSSGGS23" = "ACM SIGSOFT Distinguished Paper"
 "conf/icse/DiasMCSW021" = "ACM SIGSOFT Distinguished Paper"
 "conf/esem/FelizardoLDCS24" = "Best Paper Award"
