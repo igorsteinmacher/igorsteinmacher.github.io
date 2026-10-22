@@ -37,9 +37,8 @@
   ]
 }
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts/source-serif-4-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="fonts/fonts.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -51,10 +50,12 @@
       <!-- BEGIN:nav (generated from data/site.toml — edit there) -->
       <a href="#research">Research</a>
       <a href="#projects">Projects</a>
+      <a href="#honors">Awards</a>
       <a href="publications.html">Publications</a>
       <a href="software.html">Software</a>
       <a href="#students">Students</a>
       <a href="#service">Service</a>
+      <a href="#talks">Talks</a>
       <a href="#contact">Contact</a>
       <!-- END:nav -->
     </nav>
@@ -118,39 +119,78 @@
   <section id="research">
     <h2>Research</h2>
     <div class="themes">
+      <!-- BEGIN:research (generated from data/research.toml — edit there) -->
       <div class="theme">
         <span class="tag">onboarding &amp; retention</span>
         <h3>Open Source Sustainability</h3>
-        <p>Barriers faced by newcomers, mentoring, maintainer issues, governance,
-        and forecasting developer inactivity.</p>
+        <p>Barriers faced by newcomers, mentoring, maintainer issues, governance, and forecasting developer inactivity.</p>
+        <ul class="papers">
+          <li><a href="https://doi.org/10.1016/j.infsof.2014.11.001" target="_blank" rel="noopener">A systematic literature review on the barriers faced by newcomers to open source software projects</a> <span class="yr">Inf. Softw. Technol. 2015</span></li>
+          <li><a href="https://doi.org/10.1145/2884781.2884806" target="_blank" rel="noopener">Overcoming open source project entry barriers with a portal for newcomers</a> <span class="yr">ICSE 2016</span></li>
+          <li><a href="https://doi.org/10.1109/ICSE43902.2021.00093" target="_blank" rel="noopener">What Makes a Great Maintainer of Open Source Projects?</a> <span class="yr">ICSE 2021</span></li>
+        </ul>
       </div>
       <div class="theme">
         <span class="tag">ai × oss</span>
         <h3>AI in software development</h3>
-        <p>How to use AI agents to support software development, including
-        agents to help newcomers, understanding developers' use of generative AI,
-        and use of AI to support empirical SE research.</p>
+        <p>How to use AI agents to support software development, including agents to help newcomers, understanding developers' use of generative AI, and use of AI to support empirical SE research.</p>
+        <ul class="papers">
+          <li><a href="https://doi.org/10.1145/3597503.3608130" target="_blank" rel="noopener">How to Support ML End-User Programmers through a Conversational Agent</a> <span class="yr">ICSE 2024</span></li>
+          <li><a href="https://doi.org/10.1007/s10515-023-00409-6" target="_blank" rel="noopener">Can AI serve as a substitute for human subjects in software engineering research?</a> <span class="yr">Autom. Softw. Eng. 2024</span></li>
+          <li><a href="https://doi.org/10.1145/3674805.3690744" target="_blank" rel="noopener">Can ChatGPT emulate humans in software engineering surveys?</a> <span class="yr">ESEM 2024</span></li>
+        </ul>
       </div>
       <div class="theme">
         <span class="tag">education</span>
         <h3>Learning through open source</h3>
-        <p>Gamified environments that scaffold student contributions,
-        active learning, and bridges between universities and OSS communities.</p>
+        <p>Gamified environments that scaffold student contributions, active learning, and bridges between universities and OSS communities.</p>
+        <ul class="papers">
+          <li><a href="https://doi.org/10.1109/CSEET66350.2025.00041" target="_blank" rel="noopener">Ossdoorway: A Gamified Environment to Scaffold Student Contributions to Open Source Software</a> <span class="yr">CSEE&amp;T 2025</span></li>
+          <li><a href="https://doi.org/10.1145/3587102.3588789" target="_blank" rel="noopener">Barriers and Self-Efficacy: A Large-Scale Study on the Impact of OSS Courses on Student Perceptions</a> <span class="yr">ITiCSE 2023</span></li>
+          <li><a href="https://doi.org/10.1109/ICSE-SEET.2019.00024" target="_blank" rel="noopener">Training software engineers using open-source software: the students' perspective</a> <span class="yr">ICSE-SEET 2019</span></li>
+        </ul>
       </div>
+      <!-- END:research -->
     </div>
   </section>
 
   <section id="projects">
     <h2>Funded Projects</h2>
+    <!-- BEGIN:projects (generated from data/projects.toml — edit there) -->
+    <p class="sub-h">Current</p>
     <ul class="clean">
-      <!-- BEGIN:projects (generated from data/projects.toml — edit there) -->
-      <li><strong>CommUnityBuddy</strong> — a conversational agent supporting open source contributors — Alfred P. Sloan Foundation, 2026–current (lead PI, USD 100K).</li>
-      <li><strong><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2303612" target="_blank" rel="noopener">NSF POSE: expanding the data.table ecosystem</a></strong> for efficient big data manipulation in R — 2023–2026, lead PI, USD 731K, with Marco Gerosa and Toby Hocking.</li>
-      <li><strong><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2247929" target="_blank" rel="noopener">NSF HSI: a learning environment for an open-source contribution model</a></strong> (OSS-Doorway) — 2023–current, lead PI, USD 498K, with Marco Gerosa.</li>
-      <li><strong><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2236198" target="_blank" rel="noopener">NSF IUSE: scaffolding computational thinking in introductory CS through a conversational agent</a></strong> — 2023–current, lead PI, USD 405K, with Marco Gerosa.</li>
+      <li><strong>CommUnityBuddy</strong> — a conversational agent supporting open source contributors — Alfred P. Sloan Foundation, 2026–current, lead PI, USD 100K.</li>
+      <li><strong><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2303612" target="_blank" rel="noopener">NSF POSE: expanding the data.table ecosystem</a></strong> — for efficient big data manipulation in R — 2023–2027, lead PI, USD 731K, with Marco Gerosa and Toby Hocking.</li>
+      <li><strong><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2247929" target="_blank" rel="noopener">NSF HSI: a learning environment for an open-source contribution model</a></strong> — OSS-Doorway — 2023–2027, lead PI, USD 498K, with Marco Gerosa.</li>
+      <li><strong><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2303042" target="_blank" rel="noopener">NSF RETTL: learning software engineering by contributing to real projects with chatbot assistance</a></strong> — 2023–2027, co-PI, USD 562K, with Marco Gerosa (PI).</li>
+      <li><strong><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2236198" target="_blank" rel="noopener">NSF IUSE: scaffolding computational thinking in introductory CS through a conversational agent</a></strong> — SIGIL — 2023–2026, lead PI, USD 405K, with Marco Gerosa.</li>
+    </ul>
+    <p class="sub-h">Completed</p>
+    <ul class="clean">
       <li><strong><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1900903" target="_blank" rel="noopener">NSF CHS: Gender-Inclusive Open Source through Gender-Inclusive Tools</a></strong> — 2019–2023, lead PI, USD 528K.</li>
-      <li><strong>DisTrac</strong> — forecasting core-developer inactivity in OSS projects, with the University of Bari.</li>
-      <!-- END:projects -->
+      <li><strong>Fostering open source communities by supporting newcomer developers</strong> — FAPESP / MCTI CGI.br (Brazil), 2017, lead PI, ~BRL 230K, with Igor Wiese and Ivanilton Polato.</li>
+    </ul>
+    <!-- END:projects -->
+  </section>
+
+  <section id="honors">
+    <h2>Awards &amp; Honors</h2>
+    <ul class="clean">
+      <!-- BEGIN:honors (generated from data/honors.toml + data/awards.toml — edit there) -->
+      <li><span class="yr">2024</span> Best Paper Award — ESEM 2024: <a href="https://doi.org/10.1145/3674805.3686666" target="_blank" rel="noopener">“ChatGPT application in Systematic Literature Reviews in Software Engineering: an evaluation of its accuracy to support the selection activity”</a></li>
+      <li><span class="yr">2024</span> ACM SIGSOFT Outstanding Dissertation Award — awarded to Bianca Trinkenreich, my PhD advisee</li>
+      <li><span class="yr">2023</span> ACM SIGSOFT Distinguished Paper — ICSE 2023: <a href="https://doi.org/10.1109/ICSE48619.2023.00038" target="_blank" rel="noopener">“Do I Belong? Modeling Sense of Virtual Community Among Linux Kernel Contributors”</a></li>
+      <li><span class="yr">2023</span> Best Paper Award — CONVERSATIONS 2023: <a href="https://doi.org/10.1007/978-3-031-54975-5_12" target="_blank" rel="noopener">“Anticipating User Needs: Insights from Design Fiction on Conversational Agents for Computational Thinking”</a></li>
+      <li><span class="yr">2023</span> Distinguished Reviewer Award — ICSE 2023</li>
+      <li><span class="yr">2022</span> Best Paper Award — ICSE-SEIS 2022: <a href="https://doi.org/10.1109/ICSE-SEIS55304.2022.9793931" target="_blank" rel="noopener">“An Empirical Investigation on the Challenges Faced by Women in the Software Industry: A Case Study”</a></li>
+      <li><span class="yr">2021</span> ACM SIGSOFT Distinguished Paper — ICSE 2021: <a href="https://doi.org/10.1109/ICSE43902.2021.00093" target="_blank" rel="noopener">“What Makes a Great Maintainer of Open Source Projects?”</a></li>
+      <li><span class="yr">2021–2022</span> Brazilian Research Productivity Fellowship (PQ)</li>
+      <li><span class="yr">2020</span> IEEE TCSE Distinguished Paper — ICSME 2020: <a href="https://doi.org/10.1109/ICSME46990.2020.00011" target="_blank" rel="noopener">“Effects of Adopting Code Review Bots on Pull Requests to OSS Projects”</a></li>
+      <li><span class="yr">2020</span> Best Paper Award — OpenSym 2020: <a href="https://doi.org/10.1145/3412569.3412571" target="_blank" rel="noopener">“Recommending Tasks to Newcomers in OSS Projects: How Do Mentors Handle It?”</a></li>
+      <li><span class="yr">2020</span> Honorable Mention — CSCW 2020: <a href="https://doi.org/10.1145/3415251" target="_blank" rel="noopener">“Hidden Figures: Roles and Pathways of Successful OSS Contributors”</a></li>
+      <li><span class="yr">2019</span> ACM SIGSOFT Distinguished Paper — ICSE-SEET 2019: <a href="https://doi.org/10.1109/ICSE-SEET.2019.00024" target="_blank" rel="noopener">“Training software engineers using open-source software: the students' perspective”</a></li>
+      <li><span class="yr">2018</span> Best Paper Award — SBES 2018: <a href="https://doi.org/10.1145/3266237.3266265" target="_blank" rel="noopener">“An empirical study on task documentation in software crowdsourcing: the case of the topcoder platform”</a></li>
+      <!-- END:honors -->
     </ul>
   </section>
 
@@ -165,12 +205,14 @@
       research (gamified OSS learning, active learning) feeds directly back into the
       classroom.
     </p>
+    <!-- BEGIN:courses (generated from data/teaching.toml — edit there) -->
+    <!-- END:courses -->
   </section>
 
   <section id="students">
     <h2>Students</h2>
     <p>
-      I have supervised <!-- BEGIN:phd-alumni-count (from data/students.toml) -->nine<!-- END:phd-alumni-count --> PhD students to completion as principal supervisor or
+      I have supervised <!-- BEGIN:phd-alumni-count (from data/students.toml) -->eleven<!-- END:phd-alumni-count --> PhD students to completion as principal supervisor or
       co-supervisor — including Bianca Trinkenreich, whose dissertation received the
       2024 ACM SIGSOFT Outstanding Dissertation Award.
     </p>
@@ -189,16 +231,18 @@
       <li>Italo Santos (NAU, 2024) — now Assistant Professor, University of Hawaii</li>
       <li>Simone de França Tonhão (UEM, 2023) — now Assistant Professor, UFMS</li>
       <li>Fabio Santos (NAU, 2023) — now Research Associate, Colorado State University</li>
+      <li>Marcia Lima (UFAM, 2023)</li>
       <li>Bianca Trinkenreich (NAU, 2022) — now Assistant Professor, Colorado State University</li>
       <li>Patricia Matsubara (UFAM, 2022) — now Associate Professor, UFMS</li>
       <li>Mairieli Wessel (USP, 2021) — now Assistant Professor, Radboud University</li>
       <li>Williamson Silva (UFAM, 2020) — now Assistant Professor, UFCA</li>
       <li>Jefferson Silva (USP, 2019) — now Lecturer at Inteli / Associate Director, PUC-SP</li>
+      <li>Alexandre Lazaretti Zanatta (PUCRS, 2018)</li>
       <!-- END:students-alumni -->
     </ul>
     <p class="sub-h">Prospective students</p>
     <p>
-      In my group (Computer Science / Informatics and Computing, NAU–SICCS), PhD students focus on open source sustainability, human aspects of software engineering, or AI in software development. When you email me, explicitly mention the research topics you're interested in and show what you have already done related to them.
+      In my group (Computer Science / Informatics and Computing, NAU–SICCS), PhD students focus on open source sustainability, human aspects of software engineering, or AI in software development. Admission is through NAU's <a href="https://degree-search.nau.edu/degree/INFCOMPPHD" target="_blank" rel="noopener">PhD in Informatics and Computing</a>. When you email me, explicitly mention the research topics you're interested in and show what you have already done related to them.
     </p>
   </section>
 
@@ -224,9 +268,19 @@
       <li>Associate Director for Graduate Programs and Academic Affairs — SICCS, NAU</li>
       <li>Chaired the proposal committee for NAU's BS in Artificial Intelligence (starts Fall 2026)</li>
       <li>Education Committee, Brazilian Computer Society (2015–2017)</li>
-      <li>Recent keynotes — FOSSY 2025 (Portland); GiraEuropa 2026 (Italy &amp; Switzerland)</li>
     </ul>
     <!-- END:service -->
+  </section>
+
+  <section id="talks">
+    <h2>Talks</h2>
+    <ul class="clean">
+      <!-- BEGIN:talks (generated from data/talks.toml — edit there) -->
+      <li><span class="yr">2026</span> Keynote, ICSE 2026 Doctoral Symposium (Rio de Janeiro, Brazil)</li>
+      <li><span class="yr">2026</span> Keynote, GiraEuropa 2026 (Italy &amp; Switzerland)</li>
+      <li><span class="yr">2025</span> Keynote, FOSSY 2025 (Portland, OR, USA)</li>
+      <!-- END:talks -->
+    </ul>
   </section>
 
   <section id="contact">

@@ -1,37 +1,81 @@
-# Funded projects on the home page (index.html#projects).
+# Funded projects (index.html#projects and the CV's Grants section).
 # Edit this file, then run:  python3 scripts/build_site.py
 #
 # Fields:
-#   title    (required)  shown in bold
-#   url      (optional)  makes the title a link (e.g. the NSF award page)
-#   details  (optional)  plain text shown after the title
+#   title      (required)  shown in bold
+#   url        (optional)  makes the title a link (e.g. the NSF award page)
+#   summary    (optional)  short description after the title
+#   funder     (optional)  e.g. "Alfred P. Sloan Foundation" (skip if the title says it)
+#   start      (required)  year
+#   end        (optional)  year; leave out while it has no end date
+#   completed  (optional)  true moves it to "Completed"
+#   role       (optional)  e.g. "lead PI", "co-PI"
+#   amount     (optional)  e.g. "USD 498K"
+#   with       (optional)  collaborators, e.g. "Marco Gerosa"
 #
-# Order in this file = order on the page.
+# Order in this file = order on the page, within Current and Completed.
 
 [[project]]
 title = "CommUnityBuddy"
-details = "— a conversational agent supporting open source contributors — Alfred P. Sloan Foundation, 2026–current (lead PI, USD 100K)."
+summary = "a conversational agent supporting open source contributors"
+funder = "Alfred P. Sloan Foundation"
+start = 2026
+role = "lead PI"
+amount = "USD 100K"
 
 [[project]]
 title = "NSF POSE: expanding the data.table ecosystem"
 url = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2303612"
-details = "for efficient big data manipulation in R — 2023–2026, lead PI, USD 731K, with Marco Gerosa and Toby Hocking."
+summary = "for efficient big data manipulation in R"
+start = 2023
+end = 2027
+role = "lead PI"
+amount = "USD 731K"
+with = "Marco Gerosa and Toby Hocking"
 
 [[project]]
 title = "NSF HSI: a learning environment for an open-source contribution model"
 url = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2247929"
-details = "(OSS-Doorway) — 2023–current, lead PI, USD 498K, with Marco Gerosa."
+summary = "OSS-Doorway"
+start = 2023
+end = 2027
+role = "lead PI"
+amount = "USD 498K"
+with = "Marco Gerosa"
+
+[[project]]
+title = "NSF RETTL: learning software engineering by contributing to real projects with chatbot assistance"
+url = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2303042"
+start = 2023
+end = 2027
+role = "co-PI"
+amount = "USD 562K"
+with = "Marco Gerosa (PI)"
 
 [[project]]
 title = "NSF IUSE: scaffolding computational thinking in introductory CS through a conversational agent"
 url = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2236198"
-details = "— 2023–current, lead PI, USD 405K, with Marco Gerosa."
+summary = "SIGIL"
+start = 2023
+end = 2026
+role = "lead PI"
+amount = "USD 405K"
+with = "Marco Gerosa"
 
 [[project]]
 title = "NSF CHS: Gender-Inclusive Open Source through Gender-Inclusive Tools"
 url = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1900903"
-details = "— 2019–2023, lead PI, USD 528K."
+start = 2019
+end = 2023
+completed = true
+role = "lead PI"
+amount = "USD 528K"
 
 [[project]]
-title = "DisTrac"
-details = "— forecasting core-developer inactivity in OSS projects, with the University of Bari."
+title = "Fostering open source communities by supporting newcomer developers"
+funder = "FAPESP / MCTI CGI.br (Brazil)"
+start = 2017
+completed = true
+role = "lead PI"
+amount = "~BRL 230K"
+with = "Igor Wiese and Ivanilton Polato"

@@ -32,8 +32,8 @@ jobs:
         run: |
           git config user.name "pubs-bot"
           git config user.email "actions@github.com"
-          if ! git diff --quiet publications.html missing_preprints.md oa_cache.json; then
-            git add publications.html missing_preprints.md oa_cache.json
+          if ! git diff --quiet publications.html missing_preprints.md oa_cache.json dblp_cache.xml; then
+            git add publications.html missing_preprints.md oa_cache.json dblp_cache.xml
             git commit -m "chore: update publications from DBLP"
             git pull --rebase
             git push

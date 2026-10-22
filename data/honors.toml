@@ -1,0 +1,24 @@
+# Awards & honors that are not paper awards (index.html#honors and the CV).
+# Paper awards are added automatically from data/awards.toml.
+#
+# Fields:
+#   year    (required)  e.g. 2024 or "2021–2022"
+#   title   (required)
+#   detail  (optional)  plain text
+#   url     (optional)  link for the title
+#
+# The page sorts everything by year, newest first.
+
+[[honor]]
+year = 2024
+title = "ACM SIGSOFT Outstanding Dissertation Award"
+detail = "awarded to Bianca Trinkenreich, my PhD advisee"
+
+[[honor]]
+year = 2023
+title = "Distinguished Reviewer Award"
+detail = "ICSE 2023"
+
+[[honor]]
+year = "2021–2022"
+title = "Brazilian Research Productivity Fellowship (PQ)"

@@ -1,0 +1,16 @@
+# Courses (index.html#teaching and the CV). While this list is empty, the
+# Teaching section shows only its paragraph.
+#
+# Fields:
+#   code    (required)  e.g. "CS 499/599"
+#   title   (required)  e.g. "Open Source Software Development"
+#   level   (optional)  e.g. "undergraduate", "graduate", "undergraduate & graduate"
+#   terms   (optional)  e.g. "Fall 2022, Summer 2024"
+#   url     (optional)  course page or syllabus
+#
+# Example (remove the leading "#" characters to use it):
+#
+# [[course]]
+# code = "CS 499/599"
+# title = "Open Source Software Development"
+# level = "undergraduate & graduate"

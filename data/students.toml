@@ -11,6 +11,11 @@
 #   now     (optional, alumni)  current position — rendered as "now <...>"
 #   note    (optional)  any extra text, e.g. "on the job market"
 #   url     (optional)  link for the name (personal page, LinkedIn, ...)
+#   with    (optional)  co-supervisor(s); marks you as co-supervisor in the CV
+#   thesis  (optional)  thesis title (CV only)
+#
+# [[masters]] entries (concluded M.Sc.) appear in the CV only, with the same
+# fields; `year` may be a range such as "2024–2026".
 #
 # Order in this file = order on the page.
 
@@ -38,6 +43,7 @@ topic = "conversational agents in developer support"
 
 [[alumni]]
 name = "Ana Claudia Maciel"
+thesis = "Investigating the Impact of GitHub Discussions on Maintainers' Workload and the Dynamics of Open Source Software Communities"
 school = "UEM"
 year = 2026
 topic = "communication channels in open source"
@@ -45,6 +51,8 @@ note = "on the job market"
 
 [[alumni]]
 name = "Italo Santos"
+with = "Marco Gerosa"
+thesis = "Supporting Diverse Problem-Solving Styles in Understanding How to Contribute to Open Source"
 school = "NAU"
 year = 2024
 now = "Assistant Professor, University of Hawaii"
@@ -57,9 +65,16 @@ now = "Assistant Professor, UFMS"
 
 [[alumni]]
 name = "Fabio Santos"
+with = "Marco Gerosa"
 school = "NAU"
 year = 2023
 now = "Research Associate, Colorado State University"
+
+[[alumni]]
+name = "Marcia Lima"
+school = "UFAM"
+year = 2023
+with = "Tayana Conte and Bruno Gadelha"
 
 [[alumni]]
 name = "Bianca Trinkenreich"
@@ -69,24 +84,87 @@ now = "Assistant Professor, Colorado State University"
 
 [[alumni]]
 name = "Patricia Matsubara"
+with = "Tayana Conte"
 school = "UFAM"
 year = 2022
 now = "Associate Professor, UFMS"
 
 [[alumni]]
 name = "Mairieli Wessel"
+with = "Marco Gerosa"
 school = "USP"
 year = 2021
 now = "Assistant Professor, Radboud University"
 
 [[alumni]]
 name = "Williamson Silva"
+with = "Tayana Conte"
 school = "UFAM"
 year = 2020
 now = "Assistant Professor, UFCA"
 
 [[alumni]]
 name = "Jefferson Silva"
+with = "Marco Gerosa"
 school = "USP"
 year = 2019
 now = "Lecturer at Inteli / Associate Director, PUC-SP"
+
+[[alumni]]
+name = "Alexandre Lazaretti Zanatta"
+school = "PUCRS"
+year = 2018
+with = "Rafael Prikladnicki"
+
+# ------------------------------------------------------- M.Sc. alumni (CV only)
+
+[[masters]]
+name = "Misan Etchie"
+school = "NAU"
+year = "2024–2026"
+thesis = "Improving Learning Outcomes Through a Gamified Software Engineering Learning Environment"
+
+[[masters]]
+name = "Pawan Acharya"
+school = "NAU"
+year = 2025
+thesis = "Exploring the Impact of LLM-Supported Collaboration on Team Dynamics and Participant Perceptions in Hackathons"
+
+[[masters]]
+name = "Jacob McAuley Penney"
+school = "NAU"
+year = 2024
+thesis = "Using Large Language Models to Support the Computational Thinking Learning Process"
+
+[[masters]]
+name = "Simone de França"
+school = "UEM"
+year = 2021
+
+[[masters]]
+name = "Carlos Danilo Luz"
+school = "UEM"
+year = 2021
+with = "Edson Oliveira Jr."
+
+[[masters]]
+name = "Marcus Vinicius Bertoncello"
+school = "UEM"
+year = 2019
+
+[[masters]]
+name = "Anderson Bergamini de Neira"
+school = "UEM"
+year = 2018
+
+[[masters]]
+name = "Carolina Toscani"
+school = "PUCRS"
+year = 2018
+with = "Sabrina Marczak"
+
+[[masters]]
+name = "João Choma Neto"
+school = "UEM"
+year = 2017
+with = "Thelma Colanzi"

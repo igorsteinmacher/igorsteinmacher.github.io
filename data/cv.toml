@@ -1,0 +1,186 @@
+# CV-only content for scripts/build_cv.py. Everything else in the CV comes from
+# the other data/ files (projects, honors, awards, students, talks, teaching)
+# and from DBLP (publications), so the website and the CV stay in sync.
+#
+# Text fields accept a little Markdown: **bold**, *italic*, [text](url).
+# Highlights can use these counters, filled in automatically:
+#   {phd_alumni}  {phd_current}  {msc_alumni}  {award_venues}
+
+highlights = [
+  "Currently supervising {phd_current} Ph.D. students",
+  "Successfully supervised 20+ undergraduate research students, {msc_alumni} M.Sc. and {phd_alumni} Ph.D. students (as supervisor and co-supervisor)",
+  "Supervisor of Bianca Trinkenreich's PhD dissertation, winner of the 2024 ACM SIGSOFT Outstanding Dissertation Award",
+  "Best Paper / Distinguished Paper Awards at {award_venues}",
+  "Higher education instructor since 2005",
+  "Secured more than USD 2.5M as lead PI of NSF grants",
+  "Lead guest editor of the Thematic Series on Free and Open Source Software Development, SpringerOpen Journal of Internet Services and Applications (JISA)",
+  "Guest editor of the IEEE Software special issue “20 Years of Open Source—Impact on Software Engineering Practice”",
+  "Citation index h44 (Google Scholar)",
+]
+
+[person]
+name = "Igor Steinmacher, PhD"
+titles = [
+  "Associate Professor",
+  "Associate Director for Graduate Programs and Academic Affairs",
+]
+affiliation = "School of Informatics, Computing and Cyber Systems · Northern Arizona University · Flagstaff, AZ, USA"
+email = "igor.steinmacher@nau.edu"
+website = "https://igor.pro.br"
+links = [
+  { label = "Google Scholar", url = "https://scholar.google.com/citations?user=I8o8rfoAAAAJ" },
+  { label = "ORCID", url = "https://orcid.org/0000-0002-0612-5790" },
+  { label = "DBLP", url = "https://dblp.org/pid/70/3474.html" },
+  { label = "Scopus", url = "https://www.scopus.com/authid/detail.uri?authorId=36609225300" },
+]
+
+# Full school names for the Supervision section (students.toml uses short names).
+[schools]
+NAU = "Northern Arizona University"
+UEM = "Universidade Estadual de Maringá"
+UFAM = "Universidade Federal do Amazonas"
+USP = "Universidade de São Paulo"
+PUCRS = "Pontifícia Universidade Católica do Rio Grande do Sul"
+
+
+[[education]]
+degree = "Ph.D. in Computer Science"
+year = 2015
+institution = "University of São Paulo (USP), Brazil"
+
+[[education]]
+degree = "M.Sc. in Computer Science"
+year = 2005
+institution = "Federal University of Rio Grande do Sul (UFRGS), Brazil"
+
+[[education]]
+degree = "B.S. in Computer Science"
+year = 2003
+institution = "State University of Maringá (UEM), Brazil"
+
+[[experience]]
+period = "2025–current"
+position = "Associate Professor & Associate Director for Graduate Programs and Academic Affairs"
+institution = "Northern Arizona University (NAU), School of Informatics, Computing and Cyber Systems, USA"
+
+[[experience]]
+period = "2018–2025"
+position = "Assistant Professor"
+institution = "Northern Arizona University (NAU), School of Informatics, Computing and Cyber Systems, USA"
+note = "on leave of absence from Jan 2021 to Jul 2022"
+
+[[experience]]
+period = "2017–2018"
+position = "Post-doctoral Scholar"
+institution = "Northern Arizona University (NAU), USA"
+
+[[experience]]
+period = "2009–2021"
+position = "Faculty Member"
+institution = "Federal University of Technology – Paraná (UTFPR), Department of Computing, Brazil"
+note = "on leave of absence from Jan 2017 to Dec 2020"
+
+[[experience]]
+period = "2013–2014"
+position = "Visiting Scholar"
+institution = "University of California, Irvine (UCI), Department of Informatics, USA"
+
+[[experience]]
+period = "2006–2009"
+position = "Project Manager"
+institution = "HSBC Global Technology, Brazil"
+
+[[experience]]
+period = "2006–2009"
+position = "Lecturer"
+institution = "Faculdades Santa Cruz, Brazil"
+
+[[experience]]
+period = "2005–2006"
+position = "Software Developer"
+institution = "CELEPAR – Data Processing Company of Paraná, Brazil"
+
+# ------------------------------------------------------------------ service
+
+[[service]]
+title = "Journal editorship"
+items = [
+  "Editorial Board — Empirical Software Engineering (since 2022)",
+  "Editorial Board — Journal of Software: Evolution and Process (since 2021)",
+  "Lead Guest Editor — SpringerOpen JISA, Thematic Series on Free and Open Source Software Development",
+  "Co-Guest Editor — IEEE Software Thematic Series: 20 Years of Open Source",
+]
+
+[[service]]
+title = "Conference organization"
+items = [
+  "Student Mentoring Workshop @ ICSE (SMeW 2027)",
+  "General Chair — International Conference on Mining Software Repositories (MSR 2026)",
+  "General Chair — IEEE International Conference on Software Maintenance and Evolution (ICSME 2024)",
+  "General Co-Chair — International Conference on Program Comprehension (ICPC 2024)",
+  "General Chair — International Conference on Cooperative and Human Aspects of Software Engineering (CHASE 2023)",
+  "Virtualization Co-Chair — ICSSP-ICGSE 2021",
+  "Co-organizer — Workshop on Cooperative and Human Aspects of Software Engineering (CHASE 2019)",
+  "Organizer — AZ Computing Postdocs Best Practices (2017)",
+  "General Co-Chair — Brazilian Conference on Software: Theory and Practice (CBSoft 2016)",
+  "Co-organizer — Workshop sobre Aspectos Sociais, Humanos e Econômicos de Software (WASHES 2016)",
+  "General Chair — Free/Libre Open Source Software Workshop (WSL 2014, 2015)",
+  "Organizing Committee — Brazilian Symposium on Collaborative Systems (SBSC 2012)",
+]
+
+[[service]]
+title = "Program committee chair"
+items = [
+  "Area Chair, Human Aspects — ICSE 2025",
+  "Program Co-Chair — Brazilian Symposium on Software Engineering, Main Track (SBES 2024)",
+  "Program Co-Chair — Brazilian Symposium on Software Engineering, Insightful Ideas (SBES IIER 2023)",
+  "Program Co-Chair — 18th IFIP Conference on Open Source Systems (OSS 2022)",
+  "Program Co-Chair — International Conference on Software and Systems Process (ICSSP 2022)",
+  "Program Co-Chair — Brazilian Symposium on Software Engineering, Tools Track (SBES Tools 2022)",
+  "Co-Chair — ICSE Student Contest on Software Engineering (SCORE 2021)",
+  "Program Co-Chair — ACM/IEEE International Conference on Global Software Engineering (ICGSE 2020)",
+  "Program Co-Chair — ACS/IEEE International Conference on Computer Systems and Applications (AICCSA 2019)",
+]
+
+[[service]]
+title = "Program committee membership"
+items = [
+  "ICSE: International Conference on Software Engineering (2022, 2023, 2024, 2025)",
+  "MSR: International Conference on Mining Software Repositories (2023, 2024)",
+  "EASE: International Conference on Evaluation and Assessment in Software Engineering (2017, 2018, 2024)",
+  "GROUP: ACM International Conference on Supporting Group Work (2020)",
+  "ICSE-SEIS: Software Engineering in Society track (2020)",
+  "SANER Tool Track: International Conference on Software Analysis, Evolution and Reengineering (2019, 2020)",
+  "BotSE: International Workshop on Bots for Software Engineering (2019, 2020, 2022)",
+  "CSCW: ACM Conference on Computer Supported Cooperative Work and Social Computing (2019, 2020)",
+  "ICSE-NIER: New Ideas and Emerging Results track (2019)",
+  "ICGSE: IEEE International Conference on Global Software Engineering (2016, 2017, 2018, 2019)",
+  "SBES: Brazilian Symposium on Software Engineering (2017, 2018, 2019)",
+  "OSS: International Conference on Open Source Systems (2017, 2018)",
+  "ICSME Artifacts Track (2017)",
+  "CHASE: International Workshop on Cooperative and Human Aspects of Software Engineering (2017, 2018)",
+  "CIbSE: Iberoamerican Congress of Software Engineering (2016, 2017)",
+  "SBSC: Brazilian Symposium on Collaborative Systems (2015, 2016, 2017)",
+  "VEM: Workshop on Software Visualization, Evolution, and Maintenance (2015, 2016, 2017)",
+]
+
+[[service]]
+title = "Journal reviewing"
+items = [
+  "IEEE Transactions on Software Engineering; ACM TOSEM; ACM Computing Surveys; Communications of the ACM; Empirical Software Engineering; Information and Software Technology; Journal of Systems and Software; Journal of Software: Evolution and Process; Computer Supported Cooperative Work; Computer Standards & Interfaces; Journal of the Brazilian Computer Society; IET Software",
+  "Distinguished Reviewer Award — ICSE 2023",
+]
+
+[[service]]
+title = "Other service"
+items = [
+  "Associate Director for Graduate Programs and Academic Affairs — SICCS, NAU",
+  "Chair, proposal committee for NAU's BS in Artificial Intelligence (starts Fall 2026)",
+  "Proceedings Chair — ICSME 2022",
+  "Publicity Chair — ICSME 2018",
+  "Publicity Chair for South America — OSS 2018",
+  "Publicity and Social Media Chair — ICGSE 2017",
+  "Proceedings Chair — ICGSE 2016",
+  "Member of the Education Committee — Brazilian Computer Society (2015–2017)",
+  "Member of the Collaborative Systems Special Interest Group (CESC) — Brazilian Computer Society (2015–2016)",
+]

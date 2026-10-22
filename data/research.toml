@@ -1,0 +1,47 @@
+# Research themes on the home page (index.html#research).
+#
+# Fields:
+#   tag     (required)  small label above the title
+#   title   (required)
+#   text    (required)  plain text
+#   papers  (optional)  DBLP keys of representative papers; titles and links
+#                       are looked up in DBLP automatically. Find a key on
+#                       dblp.org (paper's "export record" menu) or in
+#                       missing_preprints.md / dblp_cache.xml.
+
+[[theme]]
+tag = "onboarding & retention"
+title = "Open Source Sustainability"
+text = """
+Barriers faced by newcomers, mentoring, maintainer issues, governance,
+and forecasting developer inactivity."""
+papers = [
+  "journals/infsof/SteinmacherSGR15",
+  "conf/icse/SteinmacherCTG16",
+  "conf/icse/DiasMCSW021",
+]
+
+[[theme]]
+tag = "ai × oss"
+title = "AI in software development"
+text = """
+How to use AI agents to support software development, including
+agents to help newcomers, understanding developers' use of generative AI,
+and use of AI to support empirical SE research."""
+papers = [
+  "conf/icse/GarciaPFGSS24",
+  "journals/ase/GerosaTSS24",
+  "conf/esem/SteinmacherPF0G24",
+]
+
+[[theme]]
+tag = "education"
+title = "Learning through open source"
+text = """
+Gamified environments that scaffold student contributions,
+active learning, and bridges between universities and OSS communities."""
+papers = [
+  "conf/csee/SantosFSSG25",
+  "conf/iticse/SalernoTST23",
+  "conf/icse/0001FSSM19",
+]

@@ -1,0 +1,31 @@
+# Invited talks and keynotes (index.html#talks and the CV).
+#
+# Fields:
+#   year    (required)
+#   event   (required)  e.g. "FOSSY 2025"
+#   kind    (optional)  e.g. "Keynote", "Invited talk", "Panel"
+#   title   (optional)  talk title
+#   place   (optional)  city / country
+#   url     (optional)  event page
+#   slides  (optional)  link to slides
+#   video   (optional)  link to recording
+#
+# Order in this file = order on the page (newest first).
+
+[[talk]]
+year = 2026
+kind = "Keynote"
+event = "ICSE 2026 Doctoral Symposium"
+place = "Rio de Janeiro, Brazil"
+
+[[talk]]
+year = 2026
+kind = "Keynote"
+event = "GiraEuropa 2026"
+place = "Italy & Switzerland"
+
+[[talk]]
+year = 2025
+kind = "Keynote"
+event = "FOSSY 2025"
+place = "Portland, OR, USA"

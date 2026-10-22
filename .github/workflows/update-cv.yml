@@ -1,0 +1,92 @@
+name: Update CV
+
+# Regenerates the CV from data/ + DBLP and opens (or updates) a pull request
+# when its content changes. Nothing goes live until you merge the PR.
+# Review cv/CV.md in the PR's "Files changed" tab for a readable text diff.
+on:
+  push:
+    branches: [master]
+    paths:
+      - "data/**"
+      - "dblp_cache.xml"
+      - "scripts/build_cv.py"
+      - "scripts/build_site.py"
+  workflow_run:                # after the monthly DBLP refresh
+    workflows: ["Update publications from DBLP"]
+    types: [completed]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: cv-update
+  cancel-in-progress: false
+
+jobs:
+  cv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: master
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Generate CV (Markdown + HTML)
+        run: python scripts/build_cv.py
+
+      - name: Did the content change?
+        id: diff
+        run: |
+          if [ -n "$(git status --porcelain -- cv/CV.md)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "CV content unchanged."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Print PDF
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          CHROME="$(command -v google-chrome || command -v google-chrome-stable)" \
+            python scripts/build_cv.py --pdf
+
+      - name: Summarize changes for the PR
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git add -N cv/CV.md
+          added=$(git diff -U0 -- cv/CV.md | grep -E '^\+[^+]' | sed -E 's/^\+(- )?/- /' || true)
+          removed=$(git diff -U0 -- cv/CV.md | grep -E '^-[^-]' | sed -E 's/^-(- )?/- /' || true)
+          {
+            echo "Automated CV update from \`data/\` and DBLP. **Merging publishes** \`Steinmacher_CV.pdf\` and igor.pro.br/cv/."
+            echo
+            echo "Read \`cv/CV.md\` in **Files changed** for the full text diff. Close the PR to reject; fix the data in \`data/\` and the PR updates itself."
+            echo
+            echo "### Added or changed lines ($(printf '%s\n' "$added" | grep -c . || true))"
+            echo
+            printf '%s\n' "$added" | head -60
+            echo
+            echo "### Removed or replaced lines ($(printf '%s\n' "$removed" | grep -c . || true))"
+            echo
+            printf '%s\n' "$removed" | head -60
+          } > "$RUNNER_TEMP/pr-body.md"
+          git reset -q
+
+      - name: Open or update the pull request
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/cv-update
+          base: master
+          title: "CV update"
+          body-path: ${{ runner.temp }}/pr-body.md
+          commit-message: "chore: regenerate CV"
+          add-paths: |
+            cv/CV.md
+            cv/index.html
+            Steinmacher_CV.pdf
+          delete-branch: true

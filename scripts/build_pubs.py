@@ -69,9 +69,8 @@ HEAD = """<!DOCTYPE html>
 <meta property="og:image:height" content="543">
 <meta property="og:image:alt" content="Portrait of Igor Steinmacher">
 <meta name="twitter:card" content="summary">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts/source-serif-4-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="fonts/fonts.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -321,6 +320,8 @@ def main() -> None:
 
         label = "journal" if kind == "article" else "conference"
         award = awards.get(key)
+        if isinstance(award, dict):  # { award = "...", venue = "..." }
+            award = award.get("award")
         title_html = (f'<a href="{esc(ee)}" target="_blank" rel="noopener">{esc(title)}</a>'
                       if ee else esc(title))
         award_html = f'<span class="award">★ {esc(award)}</span>' if award else ""

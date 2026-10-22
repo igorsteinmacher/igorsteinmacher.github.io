@@ -1,9 +1,17 @@
 # Paper awards shown as a ★ badge on publications.html.
 # Key = the paper's DBLP key (find it on dblp.org: hover the paper → "export record"),
-# value = award text. Used by scripts/build_pubs.py.
+# value = award text, or { award = "...", venue = "..." } to override how the
+# venue is named in the Awards & honors list (DBLP's name is used otherwise).
+# Used by scripts/build_pubs.py (★ badges), build_site.py (Awards & honors) and
+# build_cv.py.
 
 "conf/icse/TrinkenreichSSGGS23" = "ACM SIGSOFT Distinguished Paper"
 "conf/icse/DiasMCSW021" = "ACM SIGSOFT Distinguished Paper"
 "conf/esem/FelizardoLDCS24" = "Best Paper Award"
 "conf/icsm/WesselSWSG20" = "IEEE TCSE Distinguished Paper"
-"conf/icse/TrinkenreichBGS22" = "Best Paper Award (SEIS)"
+"conf/icse/TrinkenreichBGS22" = "Best Paper Award"
+"conf/conversations/PenneyPSG23" = "Best Paper Award"
+"conf/icse/0001FSSM19" = "ACM SIGSOFT Distinguished Paper"
+"conf/wikis/BalaliAPTGSS20" = "Best Paper Award"
+"journals/pacmhci/TrinkenreichGWS20" = { award = "Honorable Mention", venue = "CSCW" }
+"conf/sbes/VazMS18" = "Best Paper Award"
