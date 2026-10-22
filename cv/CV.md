@@ -48,7 +48,7 @@ School of Informatics, Computing and Cyber Systems · Northern Arizona Universit
 
 - **2026** — ACM SIGSOFT Distinguished Paper — CHASE@ICSE 2026: [“Governance in Practice: How Open Source Projects Define and Document Roles”](https://doi.org/10.1145/3794860.3794911)
 - **2026** — NAU Award for Graduate Research Mentorship — Northern Arizona University Research and Creative Activity Awards
-- **2025** — Most Promising Research Scholar — Northern Arizona University
+- **2025** — NAU Award for Most Promising New Research Scholar — Northern Arizona University
 - **2024** — Best Paper Award — ESEM 2024: [“ChatGPT application in Systematic Literature Reviews in Software Engineering: an evaluation of its accuracy to support the selection activity”](https://doi.org/10.1145/3674805.3686666)
 - **2024** — ACM SIGSOFT Outstanding Dissertation Award — awarded to Bianca Trinkenreich, my PhD advisee
 - **2023** — ACM SIGSOFT Distinguished Paper — ICSE 2023: [“Do I Belong? Modeling Sense of Virtual Community Among Linux Kernel Contributors”](https://doi.org/10.1109/ICSE48619.2023.00038)
