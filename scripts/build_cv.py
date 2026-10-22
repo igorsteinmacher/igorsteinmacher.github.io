@@ -194,7 +194,7 @@ def build_markdown() -> str:
         if t.get("place"):
             s += f" ({md(t['place'])})"
         talk_items.append(s)
-    out += bullet_section("Invited Talks and Keynotes", talk_items)
+    out += bullet_section("Keynotes, Invited Talks and Panels", talk_items)
 
     out += ["", "## Professional Service"]
     for g in entries("cv.toml", "service", ("title",), ("items",)):

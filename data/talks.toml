@@ -1,10 +1,10 @@
-# Invited talks and keynotes (index.html#talks and the CV).
+# Keynotes, invited talks and panels (index.html#talks and the CV).
 #
 # Fields:
 #   year    (required)
 #   event   (required)  e.g. "FOSSY 2025"
-#   kind    (optional)  e.g. "Keynote", "Invited talk", "Panel"
-#   title   (optional)  talk title
+#   kind    (optional)  e.g. "Keynote", "Invited talk", "Talk", "Panelist"
+#   title   (optional)  talk or panel title
 #   place   (optional)  city / country
 #   url     (optional)  event page
 #   slides  (optional)  link to slides
@@ -17,15 +17,40 @@ year = 2026
 kind = "Keynote"
 event = "ICSE 2026 Doctoral Symposium"
 place = "Rio de Janeiro, Brazil"
+url = "https://conf.researchr.org/track/icse-2026/icse-2026-doctoral-symposium"
 
 [[talk]]
 year = 2026
-kind = "Keynote"
-event = "GiraEuropa 2026"
+kind = "Panelist"
+event = "ICSE 2026 Panels and Special Sessions"
+title = "SE.next: Raising the Agentic Engineer"
+place = "Rio de Janeiro, Brazil"
+url = "https://conf.researchr.org/track/icse-2026/icse-2026-panels-and-special-sessions"
+
+[[talk]]
+year = 2026
+kind = "Invited talks"
+event = "GiraEuropa 2026, university seminar tour"
 place = "Italy & Switzerland"
 
 [[talk]]
 year = 2025
-kind = "Keynote"
-event = "FOSSY 2025"
+kind = "Talk"
+event = "FOSSY 2025, Science of Community track"
+title = "Lessons from a Decade of Open Source Sustainability Research"
 place = "Portland, OR, USA"
+url = "https://blog.communitydata.science/fossy-2025-wrap-up-igor-steinmacher-lessons-from-a-decade-of-open-source-sustainability-research/"
+
+[[talk]]
+year = 2025
+kind = "Panelist"
+event = "BotSE 2025 (Workshop on Bots in Software Engineering) at ICSE 2025"
+place = "Ottawa, Canada"
+url = "https://conf.researchr.org/home/icse-2025/botse-2025"
+
+[[talk]]
+year = 2024
+kind = "Keynote"
+event = "WBots 2024 (Workshop sobre Bots na Engenharia de Software) at CBSoft 2024"
+place = "Curitiba, Brazil"
+url = "https://w-bots.github.io/wbots/2024/"
