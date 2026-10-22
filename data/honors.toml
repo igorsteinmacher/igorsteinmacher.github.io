@@ -10,6 +10,17 @@
 # The page sorts everything by year, newest first.
 
 [[honor]]
+year = 2026
+title = "NAU Award for Graduate Research Mentorship"
+detail = "Northern Arizona University Research and Creative Activity Awards"
+url = "https://in.nau.edu/news/2026-rca-awards/"
+
+[[honor]]
+year = 2025
+title = "Most Promising Research Scholar"
+detail = "Northern Arizona University"
+
+[[honor]]
 year = 2024
 title = "ACM SIGSOFT Outstanding Dissertation Award"
 detail = "awarded to Bianca Trinkenreich, my PhD advisee"
