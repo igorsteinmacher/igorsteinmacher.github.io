@@ -10,7 +10,7 @@ School of Informatics, Computing and Cyber Systems · Northern Arizona Universit
 - Currently supervising 3 Ph.D. students
 - Successfully supervised 20+ undergraduate research students, 9 M.Sc. and 11 Ph.D. students (as supervisor and co-supervisor)
 - Supervisor of Bianca Trinkenreich's PhD dissertation, winner of the 2024 ACM SIGSOFT Outstanding Dissertation Award
-- Best Paper / Distinguished Paper Awards at ESEM 2024, ICSE 2023, CONVERSATIONS 2023, ICSE-SEIS 2022, ICSE 2021, ICSME 2020, OpenSym 2020, ICSE-SEET 2019, SBES 2018
+- Best Paper / Distinguished Paper Awards at CHASE@ICSE 2026, ESEM 2024, ICSE 2023, CONVERSATIONS 2023, ICSE-SEIS 2022, ICSE 2021, ICSME 2020, OpenSym 2020, ICSE-SEET 2019, SBES 2018
 - Higher education instructor since 2005
 - Secured more than USD 2.5M as lead PI of NSF grants
 - Lead guest editor of the Thematic Series on Free and Open Source Software Development, SpringerOpen Journal of Internet Services and Applications (JISA)
@@ -46,6 +46,7 @@ School of Informatics, Computing and Cyber Systems · Northern Arizona Universit
 
 ## Awards and Honors
 
+- **2026** — ACM SIGSOFT Distinguished Paper — CHASE@ICSE 2026: [“Governance in Practice: How Open Source Projects Define and Document Roles”](https://doi.org/10.1145/3794860.3794911)
 - **2024** — Best Paper Award — ESEM 2024: [“ChatGPT application in Systematic Literature Reviews in Software Engineering: an evaluation of its accuracy to support the selection activity”](https://doi.org/10.1145/3674805.3686666)
 - **2024** — ACM SIGSOFT Outstanding Dissertation Award — awarded to Bianca Trinkenreich, my PhD advisee
 - **2023** — ACM SIGSOFT Distinguished Paper — ICSE 2023: [“Do I Belong? Modeling Sense of Virtual Community Among Linux Kernel Contributors”](https://doi.org/10.1109/ICSE48619.2023.00038)
@@ -131,7 +132,7 @@ School of Informatics, Computing and Cyber Systems · Northern Arizona Universit
 - Mika Mäntylä, Patrícia Matsubara, Kátia Romero Felizardo, Miikka Kuutila, Marco Aurélio Gerosa, Savio Sousa Sampaio, Tayana Conte, **Igor Steinmacher**. [Understanding LLMs in Title-Abstract Screening: From Disagreements to Recommendations](https://doi.org/10.1007/978-3-032-36587-3_16). *SEAA* , 226-242 (2026).
 - Sadia Afroz, Zixuan Feng, Tyler Menezes, Katie Kimura, Bianca Trinkenreich, **Igor Steinmacher**, Anita Sarma. [The Fast and Spurious: Developer Productivity with GenAI](https://doi.org/10.1145/3803437.3806710). *SIGSOFT FSE Companion* , 1832-1841 (2026).
 - Pawan Acharya, Tayana Conte, Jacob Penney, Pedro Oliveira, Misan Paul Etchie, Jared Duval, Bruno Gadelha, Marco Aurélio Gerosa, **Igor Steinmacher**. [Shh! Don't Tell Them I Use GenAI: Exploring How Participants Use Generative AI in Hackathons](https://doi.org/10.1145/3803437.3806711). *SIGSOFT FSE Companion* , 1842-1850 (2026).
-- Pedro Oliveira, Tayana Conte, Marco Aurélio Gerosa, **Igor Steinmacher**. [Governance in Practice: How Open Source Projects Define and Document Roles](https://doi.org/10.1145/3794860.3794911). *CHASE@ICSE* , 255-266 (2026).
+- Pedro Oliveira, Tayana Conte, Marco Aurélio Gerosa, **Igor Steinmacher**. [Governance in Practice: How Open Source Projects Define and Document Roles](https://doi.org/10.1145/3794860.3794911). *CHASE@ICSE* , 255-266 (2026). ★ ACM SIGSOFT Distinguished Paper
 - Raula Gaikovina Kula, Christoph Treude, Xing Hu, Sebastian Baltes, Earl T. Barr, Kelly Blincoe, Fabio Calefato, Junjie Chen, Marc Cheong, Youmei Fan, Daniel M. Germán, Marco Aurélio Gerosa, Jin L. C. Guo, Shinpei Hayashi, Robert Hirschfeld, Reid Holmes, Yintong Huo, Takashi Kobayashi, Michele Lanza, Zhongxin Liu, Olivier Nourry, Nicole Novielli, Denys Poshyvanyk, Shinobu Saito, Kazumasa Shimari, **Igor Steinmacher**, Mairieli Wessel, Markus Wagner, Annie Vella, Laurie Williams, Xin Xia. [Forecasting Developer Environments with GenAI: A Research Perspective](https://doi.org/10.1145/3786151.3788604). *IDE@ICSE* , 1-5 (2026).
 - Ashish Amresh, Siddharth Subramanian, **Igor Steinmacher**. [Evaluating the Effect of Generative AI Content in Common Game Development Software Architectures](https://doi.org/10.1145/3786171.3788379). *GAS@ICSE* , 47-54 (2026).
 - Rudrajit Choudhuri, Bianca Trinkenreich, Rahul Pandita, Eirini Kalliamvakou, **Igor Steinmacher**, Marco Aurélio Gerosa, Christopher Sanchez, Anita Sarma. [What Guides Our Choices? Modeling Developers' Trust and Behavioral Intentions Towards Genai](https://doi.org/10.1109/ICSE55347.2025.00087). *ICSE* , 1691-1703 (2025).
@@ -308,11 +309,14 @@ School of Informatics, Computing and Cyber Systems · Northern Arizona Universit
 - Carolina Toscani (2018). M.Sc., Pontifícia Universidade Católica do Rio Grande do Sul. Co-supervisor (with Sabrina Marczak).
 - João Choma Neto (2017). M.Sc., Universidade Estadual de Maringá. Co-supervisor (with Thelma Colanzi).
 
-## Invited Talks and Keynotes
+## Keynotes, Invited Talks and Panels
 
-- **2026** — Keynote, ICSE 2026 Doctoral Symposium (Rio de Janeiro, Brazil)
-- **2026** — Keynote, GiraEuropa 2026 (Italy & Switzerland)
-- **2025** — Keynote, FOSSY 2025 (Portland, OR, USA)
+- **2026** — Keynote, [ICSE 2026 Doctoral Symposium](https://conf.researchr.org/track/icse-2026/icse-2026-doctoral-symposium) (Rio de Janeiro, Brazil)
+- **2026** — Panelist, [ICSE 2026 Panels and Special Sessions](https://conf.researchr.org/track/icse-2026/icse-2026-panels-and-special-sessions): “SE.next: Raising the Agentic Engineer” (Rio de Janeiro, Brazil)
+- **2026** — Invited talks, GiraEuropa 2026, university seminar tour (Italy & Switzerland)
+- **2025** — Talk, [FOSSY 2025, Science of Community track](https://blog.communitydata.science/fossy-2025-wrap-up-igor-steinmacher-lessons-from-a-decade-of-open-source-sustainability-research/): “Lessons from a Decade of Open Source Sustainability Research” (Portland, OR, USA)
+- **2025** — Panelist, [BotSE 2025 (Workshop on Bots in Software Engineering) at ICSE 2025](https://conf.researchr.org/home/icse-2025/botse-2025) (Ottawa, Canada)
+- **2024** — Keynote, [WBots 2024 (Workshop sobre Bots na Engenharia de Software) at CBSoft 2024](https://w-bots.github.io/wbots/2024/) (Curitiba, Brazil)
 
 ## Professional Service
 
