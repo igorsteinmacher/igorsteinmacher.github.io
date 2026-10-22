@@ -7,7 +7,7 @@ into the pages. Python 3.11+ standard library only — nothing to install.
 
 | What | Edit | Then |
 |---|---|---|
-| Students (current / alumni) | `data/students.toml` | `python3 scripts/build_site.py` |
+| Students (current / alumni; the "supervised N PhD students" count follows the alumni list) | `data/students.toml` | `python3 scripts/build_site.py` |
 | Software / tools | `data/software.toml` | `python3 scripts/build_site.py` |
 | Funded projects | `data/projects.toml` | `python3 scripts/build_site.py` |
 | Service & leadership | `data/service.toml` | `python3 scripts/build_site.py` |

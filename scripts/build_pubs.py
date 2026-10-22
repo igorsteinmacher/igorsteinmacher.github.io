@@ -55,6 +55,20 @@ HEAD = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Publications — Igor Steinmacher</title>
+<meta name="description" content="Peer-reviewed journal and conference papers by Igor Steinmacher on open source sustainability, human aspects of software engineering, and AI in software development.">
+<link rel="canonical" href="https://igor.pro.br/publications.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Igor Steinmacher">
+<meta property="og:url" content="https://igor.pro.br/publications.html">
+<meta property="og:title" content="Publications — Igor Steinmacher">
+<meta property="og:description" content="Peer-reviewed journal and conference papers by Igor Steinmacher on open source sustainability, human aspects of software engineering, and AI in software development.">
+<meta property="og:image" content="https://igor.pro.br/steinmacherIgor.jpg">
+<meta property="og:image:width" content="420">
+<meta property="og:image:height" content="543">
+<meta property="og:image:alt" content="Portrait of Igor Steinmacher">
+<meta name="twitter:card" content="summary">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">

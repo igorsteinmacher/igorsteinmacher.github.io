@@ -14,13 +14,16 @@ marker comments are rewritten:
 
 Everything outside the markers (prose, layout, scripts) is left untouched, so
 edit text in the HTML and lists in data/. The generated lines are indented to
-match the BEGIN marker.
+match the BEGIN marker. A region can also sit inside a sentence, on one line:
+
+    I have supervised <!-- BEGIN:phd-alumni-count -->nine<!-- END:phd-alumni-count --> PhD students
 
 Regions and their sources:
     nav                 data/site.toml       (every page)
     projects            data/projects.toml
     students-current    data/students.toml
     students-alumni     data/students.toml
+    phd-alumni-count    data/students.toml   (inline: "nine", "ten", ...)
     service             data/service.toml
     software            data/software.toml
 
@@ -43,6 +46,10 @@ REGION_RE = re.compile(
     r"(?P<end>[ \t]*<!-- END:(?P=name) -->)",
     re.S,
 )
+INLINE_RE = re.compile(r"(?P<begin><!-- BEGIN:(?P<name>[\w-]+)[^>]*-->)[^\n]*?(?P<end><!-- END:(?P=name) -->)")
+
+NUMBER_WORDS = ("zero one two three four five six seven eight nine ten eleven twelve thirteen "
+                "fourteen fifteen sixteen seventeen eighteen nineteen twenty").split()
 
 
 class DataError(Exception):
@@ -144,6 +151,11 @@ def render_students_alumni(page: str) -> list[str]:
     return lines
 
 
+def render_phd_alumni_count(page: str) -> list[str]:
+    n = len(load("students.toml").get("alumni", []))
+    return [NUMBER_WORDS[n] if n < len(NUMBER_WORDS) else str(n)]
+
+
 def render_service(page: str) -> list[str]:
     lines = []
     for g in entries("service.toml", "group", ("title",), ("items",)):
@@ -183,6 +195,7 @@ RENDERERS = {
     "projects": render_projects,
     "students-current": render_students_current,
     "students-alumni": render_students_alumni,
+    "phd-alumni-count": render_phd_alumni_count,
     "service": render_service,
     "software": render_software,
 }
@@ -190,15 +203,21 @@ RENDERERS = {
 
 def fill_regions(html: str, page: str) -> str:
     """Rewrite every BEGIN/END region in an HTML string. `page` is its filename."""
-    def repl(m: re.Match) -> str:
-        name = m["name"]
+    def render(name: str) -> list[str]:
         if name not in RENDERERS:
             raise DataError(f"{page}: unknown region '{name}' "
                             f"(known: {', '.join(RENDERERS)})")
+        return RENDERERS[name](page)
+
+    def block(m: re.Match) -> str:
         indent = m["indent"]
-        body = "".join(f"{indent}{line}\n" if line else "\n" for line in RENDERERS[name](page))
+        body = "".join(f"{indent}{line}\n" if line else "\n" for line in render(m["name"]))
         return f"{indent}{m['begin']}\n{body}{m['end']}"
-    return REGION_RE.sub(repl, html)
+
+    def inline(m: re.Match) -> str:
+        return f"{m['begin']}{''.join(render(m['name']))}{m['end']}"
+
+    return INLINE_RE.sub(inline, REGION_RE.sub(block, html))
 
 
 def main() -> int:

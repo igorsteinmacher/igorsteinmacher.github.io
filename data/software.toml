@@ -47,9 +47,16 @@ links = [
 
 [[tool]]
 name = "SIGIL"
-description = ""  # TODO: add a description
+description = """
+SIGIL-PS (Stepwise Instructional Guide for Independently Learning Programming
+Skills) is an LLM-based tutor for novice programmers that lives in VS Code's chat
+view. Instead of handing out solutions, it coaches, models, and scaffolds
+computational thinking skills, and adapts its responses to each student. Part of
+the NSF IUSE project."""
 links = [
-  { label = "github (RESHAPELab)", url = "https://github.com/RESHAPELab" },
+  { label = "VS Code extension (github)", url = "https://github.com/RESHAPELab/sigil-ps-vscode" },
+  { label = "backend (github)", url = "https://github.com/RESHAPELab/sigil-ps-core" },
+  { label = "design study (CONVERSATIONS 2023)", url = "https://arxiv.org/abs/2311.06887" },
 ]
 
 [[tool]]
