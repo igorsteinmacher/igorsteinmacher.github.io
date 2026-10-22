@@ -47,6 +47,8 @@ School of Informatics, Computing and Cyber Systems · Northern Arizona Universit
 ## Awards and Honors
 
 - **2026** — ACM SIGSOFT Distinguished Paper — CHASE@ICSE 2026: [“Governance in Practice: How Open Source Projects Define and Document Roles”](https://doi.org/10.1145/3794860.3794911)
+- **2026** — NAU Award for Graduate Research Mentorship — Northern Arizona University Research and Creative Activity Awards
+- **2025** — Most Promising Research Scholar — Northern Arizona University
 - **2024** — Best Paper Award — ESEM 2024: [“ChatGPT application in Systematic Literature Reviews in Software Engineering: an evaluation of its accuracy to support the selection activity”](https://doi.org/10.1145/3674805.3686666)
 - **2024** — ACM SIGSOFT Outstanding Dissertation Award — awarded to Bianca Trinkenreich, my PhD advisee
 - **2023** — ACM SIGSOFT Distinguished Paper — ICSE 2023: [“Do I Belong? Modeling Sense of Virtual Community Among Linux Kernel Contributors”](https://doi.org/10.1109/ICSE48619.2023.00038)
@@ -317,6 +319,10 @@ School of Informatics, Computing and Cyber Systems · Northern Arizona Universit
 - **2025** — Talk, [FOSSY 2025, Science of Community track](https://blog.communitydata.science/fossy-2025-wrap-up-igor-steinmacher-lessons-from-a-decade-of-open-source-sustainability-research/): “Lessons from a Decade of Open Source Sustainability Research” (Portland, OR, USA)
 - **2025** — Panelist, [BotSE 2025 (Workshop on Bots in Software Engineering) at ICSE 2025](https://conf.researchr.org/home/icse-2025/botse-2025) (Ottawa, Canada)
 - **2024** — Keynote, [WBots 2024 (Workshop sobre Bots na Engenharia de Software) at CBSoft 2024](https://w-bots.github.io/wbots/2024/) (Curitiba, Brazil)
+- **2024** — Invited talk, [FSE 2024 New Faculty Symposium](https://2024.esec-fse.org/track/fse-2024-new-faculty-symposium): “Building Bridges for Sustainable Research” (Porto de Galinhas, Brazil)
+- **2024** — Panelist, [FSE 2024 Doctoral Symposium](https://2024.esec-fse.org/track/fse-2024-doctoral-symposium): “Life During PhD” (Porto de Galinhas, Brazil)
+- **2023** — Keynote, [Latin American School of Software Engineering (ELA-ES 2023) at CBSoft 2023](https://cbsoft2023.ufms.br/escola), on research methods in empirical software engineering (Campo Grande, Brazil)
+- **2019** — Invited talk, [BRIDGES 2019 (International Workshop on BRIdging Divides with Globally Engineered Software)](https://naist-se.github.io/BRIDGES2019/): “Diversity and Social Aspects of Open Source Software Communities” (Port Moresby, Papua New Guinea)
 
 ## Professional Service
 
