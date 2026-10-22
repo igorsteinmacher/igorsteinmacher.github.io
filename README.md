@@ -8,20 +8,20 @@ to install (Chrome is used to print the CV PDF).
 
 | What | Edit | Then |
 |---|---|---|
-| Students (current / alumni / M.Sc.; the "supervised N PhD students" count follows the alumni list) | `data/students.toml` | `python3 scripts/build_site.py` |
+| Students (`people.html`; current on the home page too; the "supervised N PhD students" count follows the alumni list) | `data/students.toml` | `python3 scripts/build_site.py` |
 | Research themes and their representative papers | `data/research.toml` | `python3 scripts/build_site.py` |
 | Funded projects / grants | `data/projects.toml` | `python3 scripts/build_site.py` |
-| Awards & honors (non-paper) | `data/honors.toml` | `python3 scripts/build_site.py` |
+| Awards & honors (`activities.html`; newest 3 on the home page) | `data/honors.toml` | `python3 scripts/build_site.py` |
 | Paper awards (★ badges + Awards list) | `data/awards.toml` | `python3 scripts/build_pubs.py` |
 | Courses | `data/teaching.toml` | `python3 scripts/build_site.py` |
-| Talks & keynotes | `data/talks.toml` | `python3 scripts/build_site.py` |
+| Keynotes, talks & panels (`activities.html`; first 2 on the home page) | `data/talks.toml` | `python3 scripts/build_site.py` |
 | Software / tools | `data/software.toml` | `python3 scripts/build_site.py` |
-| Service & leadership (website summary) | `data/service.toml` | `python3 scripts/build_site.py` |
+| Service & leadership (`activities.html`) | `data/service.toml` | `python3 scripts/build_site.py` |
 | CV-only content (education, experience, highlights, detailed service) | `data/cv.toml` | `python3 scripts/build_cv.py --pdf` |
 | Top navigation (all pages) | `data/site.toml` | `python3 scripts/build_site.py` |
 | Publications | nothing — pulled from DBLP monthly | or run `python3 scripts/build_pubs.py` |
 | Paper PDFs | drop into `publications/` (see below) | `python3 scripts/build_pubs.py` |
-| About / teaching / prospective-students text | `index.html` directly | — |
+| About / teaching text; prospective-students text | `index.html`; `people.html` directly | — |
 
 Skipping the "Then" step is fine: pushing a change under `data/` triggers
 GitHub Actions that rebuild the pages, so you can also edit the TOML files

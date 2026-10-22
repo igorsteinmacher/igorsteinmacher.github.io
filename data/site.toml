@@ -6,11 +6,9 @@
 nav = [
   { label = "Research", href = "index.html#research" },
   { label = "Projects", href = "index.html#projects" },
-  { label = "Awards", href = "index.html#honors" },
   { label = "Publications", href = "publications.html" },
   { label = "Software", href = "software.html" },
-  { label = "Students", href = "index.html#students" },
-  { label = "Service", href = "index.html#service" },
-  { label = "Talks", href = "index.html#talks" },
+  { label = "Students", href = "people.html" },
+  { label = "Activities", href = "activities.html" },
   { label = "Contact", href = "index.html#contact" },
 ]

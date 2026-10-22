@@ -23,12 +23,15 @@ Regions and their sources:
     research            data/research.toml   (+ paper titles from dblp_cache.xml)
     projects            data/projects.toml
     honors              data/honors.toml + data/awards.toml (+ dblp_cache.xml)
+    honors-recent       the newest 3 of the above (home-page teaser)
     courses             data/teaching.toml
     students-current    data/students.toml
     students-alumni     data/students.toml
+    students-masters    data/students.toml   ([[masters]])
     phd-alumni-count    data/students.toml   (inline: "nine", "ten", ...)
     service             data/service.toml
     talks               data/talks.toml
+    talks-recent        the first 2 of the above (home-page teaser)
     software            data/software.toml
 
 The data helpers here (load, entries, dblp_papers, paper_awards, ...) are
@@ -298,6 +301,10 @@ def render_honors(page: str) -> list[str]:
     return lines
 
 
+def render_honors_recent(page: str) -> list[str]:
+    return render_honors(page)[:3]
+
+
 def render_courses(page: str) -> list[str]:
     items = courses()
     if not items:
@@ -329,6 +336,10 @@ def render_talks(page: str) -> list[str]:
     return lines
 
 
+def render_talks_recent(page: str) -> list[str]:
+    return render_talks(page)[:2]
+
+
 def _student_line(s: dict, when: str, extra_parts: list) -> str:
     tail = " · ".join(esc(x) for x in extra_parts if x)
     return (f"<li>{link(s['name'], s.get('url'))} ({esc(s['school'])}, {when})"
@@ -344,6 +355,12 @@ def render_students_alumni(page: str) -> list[str]:
     return [_student_line(s, esc(s["year"]),
                           [s.get("topic"), f"now {s['now']}" if s.get("now") else None, s.get("note")])
             for s in students("alumni")]
+
+
+def render_students_masters(page: str) -> list[str]:
+    return [_student_line(s, esc(s["year"]),
+                          [s.get("topic"), f"now {s['now']}" if s.get("now") else None, s.get("note")])
+            for s in students("masters")]
 
 
 def render_phd_alumni_count(page: str) -> list[str]:
@@ -390,12 +407,15 @@ RENDERERS = {
     "research": render_research,
     "projects": render_projects,
     "honors": render_honors,
+    "honors-recent": render_honors_recent,
     "courses": render_courses,
     "students-current": render_students_current,
     "students-alumni": render_students_alumni,
+    "students-masters": render_students_masters,
     "phd-alumni-count": render_phd_alumni_count,
     "service": render_service,
     "talks": render_talks,
+    "talks-recent": render_talks_recent,
     "software": render_software,
 }
 
