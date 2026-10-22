@@ -191,6 +191,8 @@ def build_markdown() -> str:
         s += mdlink(t["event"], t.get("url"))
         if t.get("title"):
             s += f": “{md(t['title'])}”"
+        elif t.get("topic"):
+            s += f", on {md(t['topic'])}"
         if t.get("place"):
             s += f" ({md(t['place'])})"
         talk_items.append(s)

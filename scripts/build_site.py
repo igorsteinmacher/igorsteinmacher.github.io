@@ -217,7 +217,7 @@ def honors() -> list[dict]:
 
 def talks() -> list[dict]:
     return entries("talks.toml", "talk", ("year", "event"),
-                   ("kind", "title", "place", "url", "slides", "video"))
+                   ("kind", "title", "topic", "place", "url", "slides", "video"))
 
 
 def courses() -> list[dict]:
@@ -318,6 +318,8 @@ def render_talks(page: str) -> list[str]:
         text = f"{esc(t['kind'])}, {event}" if t.get("kind") else event
         if t.get("title"):
             text += f": “{esc(t['title'])}”"
+        elif t.get("topic"):
+            text += f", on {esc(t['topic'])}"
         if t.get("place"):
             text += f" ({esc(t['place'])})"
         extras = [link(lbl, t[k]) for k, lbl in (("slides", "slides"), ("video", "video")) if t.get(k)]

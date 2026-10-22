@@ -4,7 +4,8 @@
 #   year    (required)
 #   event   (required)  e.g. "FOSSY 2025"
 #   kind    (optional)  e.g. "Keynote", "Invited talk", "Talk", "Panelist"
-#   title   (optional)  talk or panel title
+#   title   (optional)  exact talk or panel title (shown in quotes)
+#   topic   (optional)  what it was about, when there is no exact title
 #   place   (optional)  city / country
 #   url     (optional)  event page
 #   slides  (optional)  link to slides
@@ -54,3 +55,35 @@ kind = "Keynote"
 event = "WBots 2024 (Workshop sobre Bots na Engenharia de Software) at CBSoft 2024"
 place = "Curitiba, Brazil"
 url = "https://w-bots.github.io/wbots/2024/"
+
+[[talk]]
+year = 2024
+kind = "Invited talk"
+event = "FSE 2024 New Faculty Symposium"
+title = "Building Bridges for Sustainable Research"
+place = "Porto de Galinhas, Brazil"
+url = "https://2024.esec-fse.org/track/fse-2024-new-faculty-symposium"
+
+[[talk]]
+year = 2024
+kind = "Panelist"
+event = "FSE 2024 Doctoral Symposium"
+title = "Life During PhD"
+place = "Porto de Galinhas, Brazil"
+url = "https://2024.esec-fse.org/track/fse-2024-doctoral-symposium"
+
+[[talk]]
+year = 2023
+kind = "Keynote"
+event = "Latin American School of Software Engineering (ELA-ES 2023) at CBSoft 2023"
+topic = "research methods in empirical software engineering"
+place = "Campo Grande, Brazil"
+url = "https://cbsoft2023.ufms.br/escola"
+
+[[talk]]
+year = 2019
+kind = "Invited talk"
+event = "BRIDGES 2019 (International Workshop on BRIdging Divides with Globally Engineered Software)"
+title = "Diversity and Social Aspects of Open Source Software Communities"
+place = "Port Moresby, Papua New Guinea"
+url = "https://naist-se.github.io/BRIDGES2019/"
